@@ -1,0 +1,584 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Apr  5 21:19:04 2024
+# Process ID: 6032
+# Current directory: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11672 C:\school\uni stuff\y2s2\ee2026\FINAL_v7.1.xpr\MODS\MODS.xpr
+# Log file: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/vivado.log
+# Journal file: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 914.254 ; gain = 164.316
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Apr  5 21:31:39 2024] Launched synth_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/synth_1/runme.log
+[Fri Apr  5 21:31:39 2024] Launched impl_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183714141A
+set_property PROGRAM.FILE {C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Apr  5 21:43:32 2024] Launched synth_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/synth_1/runme.log
+[Fri Apr  5 21:43:32 2024] Launched impl_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Apr  5 21:50:08 2024] Launched synth_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/synth_1/runme.log
+[Fri Apr  5 21:50:08 2024] Launched impl_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183714141A
+close [ open {C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/round_off.v} w ]
+add_files {{C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/round_off.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Apr  6 00:49:56 2024] Launched synth_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/synth_1/runme.log
+[Sat Apr  6 00:49:56 2024] Launched impl_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Apr  6 00:54:20 2024] Launched synth_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/synth_1/runme.log
+[Sat Apr  6 00:54:20 2024] Launched impl_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/runme.log
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183714141A
+set_property PROGRAM.FILE {C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Apr  6 01:02:50 2024] Launched synth_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/synth_1/runme.log
+[Sat Apr  6 01:02:50 2024] Launched impl_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Apr  6 01:09:58 2024] Launched synth_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/synth_1/runme.log
+[Sat Apr  6 01:09:58 2024] Launched impl_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+export_ip_user_files -of_objects  [get_files {{C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/round_off.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/round_off.v}}
+file delete -force {C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/round_off.v}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Apr  6 01:24:42 2024] Launched synth_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/synth_1/runme.log
+[Sat Apr  6 01:24:42 2024] Launched impl_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Apr  6 01:35:56 2024] Launched synth_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/synth_1/runme.log
+[Sat Apr  6 01:35:56 2024] Launched impl_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Apr  6 01:44:23 2024] Launched synth_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/synth_1/runme.log
+[Sat Apr  6 01:44:23 2024] Launched impl_1...
+Run output will be captured here: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Top_Student
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1786.828 ; gain = 119.199
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top_Student' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Top_Student.v:14]
+INFO: [Synth 8-6157] synthesizing module 'flexible_clock' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/flexible_clock.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'flexible_clock' (1#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/flexible_clock.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Keith_module' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_menu' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_poop.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/keith_return_menu.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_poop.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_menu' (2#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_poop.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_menu1' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_menu1.v:45]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/keith_back_and_randomise_menu.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_menu1.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_menu1' (3#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_menu1.v:45]
+INFO: [Synth 8-6155] done synthesizing module 'Keith_module' (4#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX_control' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/MUX_control.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_control' (5#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/MUX_control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_RJ_page1' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_RJ_page1.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/rj_page1.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_RJ_page1.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_RJ_page1' (6#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_RJ_page1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_RJ_page2' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_RJ_page2.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/rj_page2.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_RJ_page2.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_RJ_page2' (7#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_RJ_page2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RJ_Main' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/RJ_Main.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RJ_menu' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/RJ_menu.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RJ_menu' (8#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/RJ_menu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RJ_OLED_Control' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/RJ_OLED_Control.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RJ_OLED_Control' (9#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/RJ_OLED_Control.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RJ_Main' (10#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/RJ_Main.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Ari_Main_Control' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/Main_Control.v:23]
+	Parameter BLANK bound to: 8'b11111111 
+	Parameter ZERO bound to: 8'b11000000 
+	Parameter ONE bound to: 8'b11111001 
+	Parameter TWO bound to: 8'b10100100 
+	Parameter THREE bound to: 8'b10110000 
+	Parameter FOUR bound to: 8'b10011001 
+	Parameter FIVE bound to: 8'b10010010 
+	Parameter SIX bound to: 8'b10000010 
+	Parameter SEVEN bound to: 8'b11111000 
+	Parameter EIGHT bound to: 8'b10000000 
+	Parameter NINE bound to: 8'b10011000 
+INFO: [Synth 8-6157] synthesizing module 'dff' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/dff.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dff' (11#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/dff.v:23]
+INFO: [Synth 8-6157] synthesizing module 'calorie_menu' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_menu.v:22]
+	Parameter DIGITCOLOR bound to: 16'b1110010001000001 
+	Parameter BACKGROUND bound to: 16'b0000000000000000 
+	Parameter DELETECOLOR bound to: 16'b1111100000000000 
+	Parameter TICKCOLOR bound to: 16'b0000111101001000 
+	Parameter BOXCOLOR bound to: 16'b0000111101001000 
+	Parameter ALPHABETCOLOR bound to: 16'b0010010001011000 
+	Parameter DEBOUNCE_COUNT bound to: 625000 - type: integer 
+WARNING: [Synth 8-6090] variable 'isNumpadA' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_menu.v:1747]
+WARNING: [Synth 8-6090] variable 'isMain' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_menu.v:1748]
+WARNING: [Synth 8-6090] variable 'isNumpadB' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_menu.v:1751]
+WARNING: [Synth 8-6090] variable 'isMain' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_menu.v:1752]
+WARNING: [Synth 8-6090] variable 'isNumpadC' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_menu.v:1755]
+WARNING: [Synth 8-6090] variable 'isMain' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_menu.v:1756]
+INFO: [Synth 8-6155] done synthesizing module 'calorie_menu' (12#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_menu.v:22]
+INFO: [Synth 8-6157] synthesizing module 'snack_menu' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/snack_menu.v:22]
+	Parameter DIGITCOLOR bound to: 16'b1110010001000001 
+	Parameter BACKGROUND bound to: 16'b0000000000000000 
+	Parameter DELETECOLOR bound to: 16'b1111100000000000 
+	Parameter TICKCOLOR bound to: 16'b0000111101001000 
+	Parameter BOXCOLOR bound to: 16'b0000111101001000 
+	Parameter ALPHABETCOLOR bound to: 16'b0010010001011000 
+	Parameter DEBOUNCE_COUNT bound to: 625000 - type: integer 
+WARNING: [Synth 8-6090] variable 'isNumpadD' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/snack_menu.v:1269]
+WARNING: [Synth 8-6090] variable 'isSnack' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/snack_menu.v:1270]
+WARNING: [Synth 8-6090] variable 'isNumpadE' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/snack_menu.v:1273]
+WARNING: [Synth 8-6090] variable 'isSnack' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/snack_menu.v:1274]
+WARNING: [Synth 8-6090] variable 'isNumpadF' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/snack_menu.v:1277]
+WARNING: [Synth 8-6090] variable 'isSnack' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/snack_menu.v:1278]
+INFO: [Synth 8-6155] done synthesizing module 'snack_menu' (13#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/snack_menu.v:22]
+INFO: [Synth 8-6157] synthesizing module 'numpad' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/numpad_digits.v:22]
+	Parameter DIGITCOLOR bound to: 16'b1110010001000001 
+	Parameter BACKGROUND bound to: 16'b0000000000000000 
+	Parameter DELETECOLOR bound to: 16'b1111100000000000 
+	Parameter TICKCOLOR bound to: 16'b0000111101001000 
+	Parameter BOXCOLOR bound to: 16'b0000111101001000 
+	Parameter LINECOLOR bound to: 16'b0010010001011000 
+	Parameter DEBOUNCE_COUNT bound to: 625000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'numpad' (14#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/numpad_digits.v:22]
+INFO: [Synth 8-6157] synthesizing module 'oled_data_mux' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/oled_data_mux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'oled_data_mux' (15#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/oled_data_mux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'calorie_led' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'calorie_led' (16#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Ari_Main_Control' (17#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/Main_Control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'damien' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'workout' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:23]
+	Parameter zero bound to: 8'b11000000 
+	Parameter one bound to: 8'b11111001 
+	Parameter two bound to: 8'b10100100 
+	Parameter three bound to: 8'b10110000 
+	Parameter four bound to: 8'b10011001 
+	Parameter five bound to: 8'b10010010 
+	Parameter six bound to: 8'b10000010 
+	Parameter seven bound to: 8'b11111000 
+	Parameter eight bound to: 8'b10000000 
+	Parameter nine bound to: 8'b10011000 
+	Parameter zero_dot bound to: 8'b01000000 
+	Parameter one_dot bound to: 8'b01111001 
+	Parameter two_dot bound to: 8'b00100100 
+	Parameter three_dot bound to: 8'b00110000 
+	Parameter four_dot bound to: 8'b00011001 
+	Parameter five_dot bound to: 8'b00010010 
+	Parameter six_dot bound to: 8'b00000010 
+	Parameter seven_dot bound to: 8'b01111000 
+	Parameter eight_dot bound to: 8'b00000000 
+	Parameter nine_dot bound to: 8'b00011000 
+WARNING: [Synth 8-567] referenced signal 'isRun' should be on the sensitivity list [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:141]
+WARNING: [Synth 8-567] referenced signal 'isRun' should be on the sensitivity list [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:194]
+WARNING: [Synth 8-567] referenced signal 'isSitUp' should be on the sensitivity list [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:194]
+WARNING: [Synth 8-567] referenced signal 'isPushUp' should be on the sensitivity list [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:194]
+WARNING: [Synth 8-567] referenced signal 'isPullUp' should be on the sensitivity list [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:194]
+WARNING: [Synth 8-567] referenced signal 'digits' should be on the sensitivity list [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:194]
+WARNING: [Synth 8-567] referenced signal 'sec' should be on the sensitivity list [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:194]
+WARNING: [Synth 8-5788] Register led_reg in module workout is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:276]
+WARNING: [Synth 8-5788] Register sec_reg in module workout is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:285]
+WARNING: [Synth 8-5788] Register countSevenSeg_reg in module workout is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:400]
+INFO: [Synth 8-6155] done synthesizing module 'workout' (18#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_pushup_up' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pushup_up.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/pushup/up.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pushup_up.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_pushup_up' (19#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pushup_up.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_pushup_down' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pushup_down.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/pushup/down.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pushup_down.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_pushup_down' (20#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pushup_down.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_pullup_up' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pullup_up.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/pullup/up.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pullup_up.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_pullup_up' (21#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pullup_up.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_pullup_down' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pullup_down.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/pullup/down.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pullup_down.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_pullup_down' (22#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pullup_down.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_situp_up' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_situp_up.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/situps/up.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_situp_up.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_situp_up' (23#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_situp_up.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_situp_down' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_situp_down.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/situps/down.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_situp_down.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_situp_down' (24#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_situp_down.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_run1' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run1.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/run/1.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run1.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_run1' (25#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_run3' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run3.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/run/3.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run3.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_run3' (26#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run3.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_run4' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run4.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/run/4.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run4.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_run4' (27#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run4.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_run6' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run6.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/run/6.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run6.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_run6' (28#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run6.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_end' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_end.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/end.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_end.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_end' (29#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_end.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/top.v:127]
+INFO: [Synth 8-6155] done synthesizing module 'damien' (30#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/top.v:23]
+WARNING: [Synth 8-689] width (11) of port connection 'pushUpCount' does not match port width (10) of module 'damien' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Top_Student.v:95]
+WARNING: [Synth 8-689] width (11) of port connection 'sitUpCount' does not match port width (10) of module 'damien' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Top_Student.v:95]
+WARNING: [Synth 8-689] width (11) of port connection 'pullUpCount' does not match port width (10) of module 'damien' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Top_Student.v:95]
+INFO: [Synth 8-6157] synthesizing module 'Project_MUX' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Project_MUX.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Project_MUX' (31#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Project_MUX.v:23]
+WARNING: [Synth 8-689] width (8) of port connection 'control' does not match port width (6) of module 'Project_MUX' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Top_Student.v:97]
+INFO: [Synth 8-6157] synthesizing module 'Oled_Display' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/Desktop/Oled_Display.v:36]
+	Parameter Width bound to: 96 - type: integer 
+	Parameter Height bound to: 64 - type: integer 
+	Parameter PixelCount bound to: 6144 - type: integer 
+	Parameter PixelCountWidth bound to: 13 - type: integer 
+	Parameter ClkFreq bound to: 6250000 - type: integer 
+	Parameter FrameFreq bound to: 60 - type: integer 
+	Parameter FrameDiv bound to: 104166 - type: integer 
+	Parameter FrameDivWidth bound to: 17 - type: integer 
+	Parameter PowerDelay bound to: 20 - type: integer 
+	Parameter ResetDelay bound to: 3 - type: integer 
+	Parameter VccEnDelay bound to: 20 - type: integer 
+	Parameter StartupCompleteDelay bound to: 100 - type: integer 
+	Parameter MaxDelay bound to: 100 - type: integer 
+	Parameter MaxDelayCount bound to: 625000 - type: integer 
+	Parameter StateCount bound to: 32 - type: integer 
+	Parameter StateWidth bound to: 5 - type: integer 
+	Parameter PowerUp bound to: 5'b00000 
+	Parameter Reset bound to: 5'b00001 
+	Parameter ReleaseReset bound to: 5'b00011 
+	Parameter EnableDriver bound to: 5'b00010 
+	Parameter DisplayOff bound to: 5'b00110 
+	Parameter SetRemapDisplayFormat bound to: 5'b00111 
+	Parameter SetStartLine bound to: 5'b00101 
+	Parameter SetOffset bound to: 5'b00100 
+	Parameter SetNormalDisplay bound to: 5'b01100 
+	Parameter SetMultiplexRatio bound to: 5'b01101 
+	Parameter SetMasterConfiguration bound to: 5'b01111 
+	Parameter DisablePowerSave bound to: 5'b01110 
+	Parameter SetPhaseAdjust bound to: 5'b01010 
+	Parameter SetDisplayClock bound to: 5'b01011 
+	Parameter SetSecondPrechargeA bound to: 5'b01001 
+	Parameter SetSecondPrechargeB bound to: 5'b01000 
+	Parameter SetSecondPrechargeC bound to: 5'b11000 
+	Parameter SetPrechargeLevel bound to: 5'b11001 
+	Parameter SetVCOMH bound to: 5'b11011 
+	Parameter SetMasterCurrent bound to: 5'b11010 
+	Parameter SetContrastA bound to: 5'b11110 
+	Parameter SetContrastB bound to: 5'b11111 
+	Parameter SetContrastC bound to: 5'b11101 
+	Parameter DisableScrolling bound to: 5'b11100 
+	Parameter ClearScreen bound to: 5'b10100 
+	Parameter VccEn bound to: 5'b10101 
+	Parameter DisplayOn bound to: 5'b10111 
+	Parameter PrepareNextFrame bound to: 5'b10110 
+	Parameter SetColAddress bound to: 5'b10010 
+	Parameter SetRowAddress bound to: 5'b10011 
+	Parameter WaitNextFrame bound to: 5'b10001 
+	Parameter SendPixel bound to: 5'b10000 
+	Parameter SpiCommandMaxWidth bound to: 40 - type: integer 
+	Parameter SpiCommandBitCountWidth bound to: 6 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/Desktop/Oled_Display.v:123]
+INFO: [Synth 8-226] default block is never used [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/Desktop/Oled_Display.v:198]
+WARNING: [Synth 8-693] zero replication count - replication ignored [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/Desktop/Oled_Display.v:346]
+INFO: [Synth 8-6155] done synthesizing module 'Oled_Display' (32#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/Desktop/Oled_Display.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'Top_Student' (33#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Top_Student.v:14]
+WARNING: [Synth 8-3331] design BRAM_end has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_run6 has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_run4 has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_run3 has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_run1 has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_situp_down has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_situp_up has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_pullup_down has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_pullup_up has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_pushup_down has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_pushup_up has unconnected port clear
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[7]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[6]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[5]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[4]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[3]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[2]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[1]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[0]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port btnL
+WARNING: [Synth 8-3331] design calorie_menu has unconnected port btnR
+WARNING: [Synth 8-3331] design RJ_menu has unconnected port sw[15]
+WARNING: [Synth 8-3331] design RJ_menu has unconnected port sw[14]
+WARNING: [Synth 8-3331] design RJ_menu has unconnected port sw[13]
+WARNING: [Synth 8-3331] design RJ_menu has unconnected port sw[12]
+WARNING: [Synth 8-3331] design RJ_menu has unconnected port sw[11]
+WARNING: [Synth 8-3331] design RJ_menu has unconnected port sw[10]
+WARNING: [Synth 8-3331] design RJ_Main has unconnected port btnD
+WARNING: [Synth 8-3331] design RJ_Main has unconnected port btnU
+WARNING: [Synth 8-3331] design BRAM_RJ_page2 has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_RJ_page1 has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_menu1 has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_menu has unconnected port clear
+WARNING: [Synth 8-3331] design Top_Student has unconnected port JC[2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2006.059 ; gain = 338.430
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2006.059 ; gain = 338.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2006.059 ; gain = 338.430
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/constrs_1/new/master_constraint.xdc]
+Finished Parsing XDC File [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/constrs_1/new/master_constraint.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:36 ; elapsed = 00:00:33 . Memory (MB): peak = 2333.172 ; gain = 665.543
+88 Infos, 61 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:34 . Memory (MB): peak = 2333.172 ; gain = 665.543
+archive_project {C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/FINAL_v8.0.xpr.zip} -temp_dir {C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/.Xil/Vivado-6032-LAPTOP-8QIVGIR0} -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/.Xil/Vivado-6032-LAPTOP-8QIVGIR0' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/.Xil/Vivado-6032-LAPTOP-8QIVGIR0/PrjAr/_X_'.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'blk_mem_gen_const_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'blk_mem_gen_img_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'blk_mem_gen_const_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'blk_mem_gen_img_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'blk_mem_gen_const'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'blk_mem_gen_const'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'blk_mem_gen_img'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'blk_mem_gen_img'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

@@ -1,0 +1,2269 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Apr  6 01:44:25 2024
+# Process ID: 12880
+# Current directory: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/synth_1
+# Command line: vivado.exe -log Top_Student.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_Student.tcl
+# Log file: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/synth_1/Top_Student.vds
+# Journal file: C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top_Student.tcl -notrace
+Command: synth_design -top Top_Student -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15004 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 360.438 ; gain = 103.840
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top_Student' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Top_Student.v:14]
+INFO: [Synth 8-6157] synthesizing module 'flexible_clock' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/flexible_clock.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'flexible_clock' (1#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/flexible_clock.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Keith_module' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_menu' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_poop.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/keith_return_menu.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_poop.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_menu' (2#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_poop.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_menu1' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_menu1.v:45]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/keith_back_and_randomise_menu.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_menu1.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_menu1' (3#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_menu1.v:45]
+INFO: [Synth 8-6155] done synthesizing module 'Keith_module' (4#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX_control' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/MUX_control.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX_control' (5#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/MUX_control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_RJ_page1' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_RJ_page1.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/rj_page1.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_RJ_page1.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_RJ_page1' (6#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_RJ_page1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_RJ_page2' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_RJ_page2.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/rj_page2.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_RJ_page2.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_RJ_page2' (7#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_RJ_page2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RJ_Main' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/RJ_Main.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RJ_menu' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/RJ_menu.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RJ_menu' (8#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/RJ_menu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'RJ_OLED_Control' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/RJ_OLED_Control.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RJ_OLED_Control' (9#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/RJ_OLED_Control.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RJ_Main' (10#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/RJ_Main.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Ari_Main_Control' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/Main_Control.v:23]
+	Parameter BLANK bound to: 8'b11111111 
+	Parameter ZERO bound to: 8'b11000000 
+	Parameter ONE bound to: 8'b11111001 
+	Parameter TWO bound to: 8'b10100100 
+	Parameter THREE bound to: 8'b10110000 
+	Parameter FOUR bound to: 8'b10011001 
+	Parameter FIVE bound to: 8'b10010010 
+	Parameter SIX bound to: 8'b10000010 
+	Parameter SEVEN bound to: 8'b11111000 
+	Parameter EIGHT bound to: 8'b10000000 
+	Parameter NINE bound to: 8'b10011000 
+INFO: [Synth 8-6157] synthesizing module 'dff' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/dff.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'dff' (11#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/dff.v:23]
+INFO: [Synth 8-6157] synthesizing module 'calorie_menu' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_menu.v:22]
+	Parameter DIGITCOLOR bound to: 16'b1110010001000001 
+	Parameter BACKGROUND bound to: 16'b0000000000000000 
+	Parameter DELETECOLOR bound to: 16'b1111100000000000 
+	Parameter TICKCOLOR bound to: 16'b0000111101001000 
+	Parameter BOXCOLOR bound to: 16'b0000111101001000 
+	Parameter ALPHABETCOLOR bound to: 16'b0010010001011000 
+	Parameter DEBOUNCE_COUNT bound to: 625000 - type: integer 
+WARNING: [Synth 8-6090] variable 'isNumpadA' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_menu.v:1747]
+WARNING: [Synth 8-6090] variable 'isMain' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_menu.v:1748]
+WARNING: [Synth 8-6090] variable 'isNumpadB' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_menu.v:1751]
+WARNING: [Synth 8-6090] variable 'isMain' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_menu.v:1752]
+WARNING: [Synth 8-6090] variable 'isNumpadC' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_menu.v:1755]
+WARNING: [Synth 8-6090] variable 'isMain' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_menu.v:1756]
+INFO: [Synth 8-6155] done synthesizing module 'calorie_menu' (12#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_menu.v:22]
+INFO: [Synth 8-6157] synthesizing module 'snack_menu' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/snack_menu.v:22]
+	Parameter DIGITCOLOR bound to: 16'b1110010001000001 
+	Parameter BACKGROUND bound to: 16'b0000000000000000 
+	Parameter DELETECOLOR bound to: 16'b1111100000000000 
+	Parameter TICKCOLOR bound to: 16'b0000111101001000 
+	Parameter BOXCOLOR bound to: 16'b0000111101001000 
+	Parameter ALPHABETCOLOR bound to: 16'b0010010001011000 
+	Parameter DEBOUNCE_COUNT bound to: 625000 - type: integer 
+WARNING: [Synth 8-6090] variable 'isNumpadD' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/snack_menu.v:1269]
+WARNING: [Synth 8-6090] variable 'isSnack' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/snack_menu.v:1270]
+WARNING: [Synth 8-6090] variable 'isNumpadE' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/snack_menu.v:1273]
+WARNING: [Synth 8-6090] variable 'isSnack' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/snack_menu.v:1274]
+WARNING: [Synth 8-6090] variable 'isNumpadF' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/snack_menu.v:1277]
+WARNING: [Synth 8-6090] variable 'isSnack' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/snack_menu.v:1278]
+INFO: [Synth 8-6155] done synthesizing module 'snack_menu' (13#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/snack_menu.v:22]
+INFO: [Synth 8-6157] synthesizing module 'numpad' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/numpad_digits.v:22]
+	Parameter DIGITCOLOR bound to: 16'b1110010001000001 
+	Parameter BACKGROUND bound to: 16'b0000000000000000 
+	Parameter DELETECOLOR bound to: 16'b1111100000000000 
+	Parameter TICKCOLOR bound to: 16'b0000111101001000 
+	Parameter BOXCOLOR bound to: 16'b0000111101001000 
+	Parameter LINECOLOR bound to: 16'b0010010001011000 
+	Parameter DEBOUNCE_COUNT bound to: 625000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'numpad' (14#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/numpad_digits.v:22]
+INFO: [Synth 8-6157] synthesizing module 'oled_data_mux' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/oled_data_mux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'oled_data_mux' (15#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/oled_data_mux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'calorie_led' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'calorie_led' (16#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Ari_Main_Control' (17#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/Main_Control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'damien' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'workout' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:23]
+	Parameter zero bound to: 8'b11000000 
+	Parameter one bound to: 8'b11111001 
+	Parameter two bound to: 8'b10100100 
+	Parameter three bound to: 8'b10110000 
+	Parameter four bound to: 8'b10011001 
+	Parameter five bound to: 8'b10010010 
+	Parameter six bound to: 8'b10000010 
+	Parameter seven bound to: 8'b11111000 
+	Parameter eight bound to: 8'b10000000 
+	Parameter nine bound to: 8'b10011000 
+	Parameter zero_dot bound to: 8'b01000000 
+	Parameter one_dot bound to: 8'b01111001 
+	Parameter two_dot bound to: 8'b00100100 
+	Parameter three_dot bound to: 8'b00110000 
+	Parameter four_dot bound to: 8'b00011001 
+	Parameter five_dot bound to: 8'b00010010 
+	Parameter six_dot bound to: 8'b00000010 
+	Parameter seven_dot bound to: 8'b01111000 
+	Parameter eight_dot bound to: 8'b00000000 
+	Parameter nine_dot bound to: 8'b00011000 
+WARNING: [Synth 8-567] referenced signal 'isRun' should be on the sensitivity list [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:141]
+WARNING: [Synth 8-567] referenced signal 'isRun' should be on the sensitivity list [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:194]
+WARNING: [Synth 8-567] referenced signal 'isSitUp' should be on the sensitivity list [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:194]
+WARNING: [Synth 8-567] referenced signal 'isPushUp' should be on the sensitivity list [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:194]
+WARNING: [Synth 8-567] referenced signal 'isPullUp' should be on the sensitivity list [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:194]
+WARNING: [Synth 8-567] referenced signal 'digits' should be on the sensitivity list [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:194]
+WARNING: [Synth 8-567] referenced signal 'sec' should be on the sensitivity list [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:194]
+WARNING: [Synth 8-5788] Register led_reg in module workout is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:276]
+WARNING: [Synth 8-5788] Register sec_reg in module workout is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:285]
+WARNING: [Synth 8-5788] Register countSevenSeg_reg in module workout is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:400]
+INFO: [Synth 8-6155] done synthesizing module 'workout' (18#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_pushup_up' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pushup_up.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/pushup/up.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pushup_up.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_pushup_up' (19#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pushup_up.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_pushup_down' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pushup_down.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/pushup/down.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pushup_down.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_pushup_down' (20#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pushup_down.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_pullup_up' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pullup_up.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/pullup/up.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pullup_up.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_pullup_up' (21#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pullup_up.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_pullup_down' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pullup_down.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/pullup/down.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pullup_down.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_pullup_down' (22#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_pullup_down.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_situp_up' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_situp_up.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/situps/up.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_situp_up.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_situp_up' (23#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_situp_up.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_situp_down' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_situp_down.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/situps/down.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_situp_down.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_situp_down' (24#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_situp_down.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_run1' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run1.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/run/1.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run1.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_run1' (25#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_run3' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run3.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/run/3.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run3.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_run3' (26#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run3.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_run4' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run4.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/run/4.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run4.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_run4' (27#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run4.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_run6' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run6.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/run/6.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run6.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_run6' (28#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/BRAM_run6.v:23]
+INFO: [Synth 8-6157] synthesizing module 'BRAM_end' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_end.v:23]
+	Parameter n bound to: 13 - type: integer 
+	Parameter w bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:/school/ee2026images/end.txt' is read successfully [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_end.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'BRAM_end' (29#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/BRAM_end.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/top.v:127]
+INFO: [Synth 8-6155] done synthesizing module 'damien' (30#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/top.v:23]
+WARNING: [Synth 8-689] width (11) of port connection 'pushUpCount' does not match port width (10) of module 'damien' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Top_Student.v:95]
+WARNING: [Synth 8-689] width (11) of port connection 'sitUpCount' does not match port width (10) of module 'damien' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Top_Student.v:95]
+WARNING: [Synth 8-689] width (11) of port connection 'pullUpCount' does not match port width (10) of module 'damien' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Top_Student.v:95]
+INFO: [Synth 8-6157] synthesizing module 'Project_MUX' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Project_MUX.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Project_MUX' (31#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Project_MUX.v:23]
+WARNING: [Synth 8-689] width (8) of port connection 'control' does not match port width (6) of module 'Project_MUX' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Top_Student.v:97]
+INFO: [Synth 8-6157] synthesizing module 'Oled_Display' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/Desktop/Oled_Display.v:36]
+	Parameter Width bound to: 96 - type: integer 
+	Parameter Height bound to: 64 - type: integer 
+	Parameter PixelCount bound to: 6144 - type: integer 
+	Parameter PixelCountWidth bound to: 13 - type: integer 
+	Parameter ClkFreq bound to: 6250000 - type: integer 
+	Parameter FrameFreq bound to: 60 - type: integer 
+	Parameter FrameDiv bound to: 104166 - type: integer 
+	Parameter FrameDivWidth bound to: 17 - type: integer 
+	Parameter PowerDelay bound to: 20 - type: integer 
+	Parameter ResetDelay bound to: 3 - type: integer 
+	Parameter VccEnDelay bound to: 20 - type: integer 
+	Parameter StartupCompleteDelay bound to: 100 - type: integer 
+	Parameter MaxDelay bound to: 100 - type: integer 
+	Parameter MaxDelayCount bound to: 625000 - type: integer 
+	Parameter StateCount bound to: 32 - type: integer 
+	Parameter StateWidth bound to: 5 - type: integer 
+	Parameter PowerUp bound to: 5'b00000 
+	Parameter Reset bound to: 5'b00001 
+	Parameter ReleaseReset bound to: 5'b00011 
+	Parameter EnableDriver bound to: 5'b00010 
+	Parameter DisplayOff bound to: 5'b00110 
+	Parameter SetRemapDisplayFormat bound to: 5'b00111 
+	Parameter SetStartLine bound to: 5'b00101 
+	Parameter SetOffset bound to: 5'b00100 
+	Parameter SetNormalDisplay bound to: 5'b01100 
+	Parameter SetMultiplexRatio bound to: 5'b01101 
+	Parameter SetMasterConfiguration bound to: 5'b01111 
+	Parameter DisablePowerSave bound to: 5'b01110 
+	Parameter SetPhaseAdjust bound to: 5'b01010 
+	Parameter SetDisplayClock bound to: 5'b01011 
+	Parameter SetSecondPrechargeA bound to: 5'b01001 
+	Parameter SetSecondPrechargeB bound to: 5'b01000 
+	Parameter SetSecondPrechargeC bound to: 5'b11000 
+	Parameter SetPrechargeLevel bound to: 5'b11001 
+	Parameter SetVCOMH bound to: 5'b11011 
+	Parameter SetMasterCurrent bound to: 5'b11010 
+	Parameter SetContrastA bound to: 5'b11110 
+	Parameter SetContrastB bound to: 5'b11111 
+	Parameter SetContrastC bound to: 5'b11101 
+	Parameter DisableScrolling bound to: 5'b11100 
+	Parameter ClearScreen bound to: 5'b10100 
+	Parameter VccEn bound to: 5'b10101 
+	Parameter DisplayOn bound to: 5'b10111 
+	Parameter PrepareNextFrame bound to: 5'b10110 
+	Parameter SetColAddress bound to: 5'b10010 
+	Parameter SetRowAddress bound to: 5'b10011 
+	Parameter WaitNextFrame bound to: 5'b10001 
+	Parameter SendPixel bound to: 5'b10000 
+	Parameter SpiCommandMaxWidth bound to: 40 - type: integer 
+	Parameter SpiCommandBitCountWidth bound to: 6 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/Desktop/Oled_Display.v:123]
+INFO: [Synth 8-226] default block is never used [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/Desktop/Oled_Display.v:198]
+WARNING: [Synth 8-693] zero replication count - replication ignored [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/Desktop/Oled_Display.v:346]
+INFO: [Synth 8-6155] done synthesizing module 'Oled_Display' (32#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/Desktop/Oled_Display.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'Top_Student' (33#1) [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Top_Student.v:14]
+WARNING: [Synth 8-3331] design BRAM_end has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_run6 has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_run4 has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_run3 has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_run1 has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_situp_down has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_situp_up has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_pullup_down has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_pullup_up has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_pushup_down has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_pushup_up has unconnected port clear
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[7]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[6]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[5]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[4]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[3]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[2]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[1]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[0]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port btnL
+WARNING: [Synth 8-3331] design calorie_menu has unconnected port btnR
+WARNING: [Synth 8-3331] design RJ_menu has unconnected port sw[15]
+WARNING: [Synth 8-3331] design RJ_menu has unconnected port sw[14]
+WARNING: [Synth 8-3331] design RJ_menu has unconnected port sw[13]
+WARNING: [Synth 8-3331] design RJ_menu has unconnected port sw[12]
+WARNING: [Synth 8-3331] design RJ_menu has unconnected port sw[11]
+WARNING: [Synth 8-3331] design RJ_menu has unconnected port sw[10]
+WARNING: [Synth 8-3331] design RJ_Main has unconnected port btnD
+WARNING: [Synth 8-3331] design RJ_Main has unconnected port btnU
+WARNING: [Synth 8-3331] design BRAM_RJ_page2 has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_RJ_page1 has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_menu1 has unconnected port clear
+WARNING: [Synth 8-3331] design BRAM_menu has unconnected port clear
+WARNING: [Synth 8-3331] design Top_Student has unconnected port JC[2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 586.012 ; gain = 329.414
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 586.012 ; gain = 329.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 586.012 ; gain = 329.414
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/constrs_1/new/master_constraint.xdc]
+Finished Parsing XDC File [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/constrs_1/new/master_constraint.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/constrs_1/new/master_constraint.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_Student_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_Student_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 917.734 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 917.734 ; gain = 661.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 917.734 ; gain = 661.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 917.734 ; gain = 661.137
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "slow_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "change_screen" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "an0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "an0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "situp_Scolor" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "random_color" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "random_color" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "screen" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'screen_reg' in module 'Keith_module'
+INFO: [Synth 8-802] inferred FSM for state register 'an_switch_reg' in module 'RJ_menu'
+INFO: [Synth 8-5546] ROM "RJ_control" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "an_count" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "page" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "seg" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "gender_confirm" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "gender_confirm" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "an" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "RJ_control" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "an_count" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "page" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "seg" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "gender_confirm" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "gender_confirm" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "an" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mode" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "BMI_control" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "deficit_control" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "oled_data" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "oled_data" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "oled_data" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "oled_data" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "BMI_control" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "deficit_control" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "oled_data" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "oled_data" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "oled_data" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "oled_data" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "oled_data" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "deficit0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "deficit0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "deficit_colour" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "deficit_colour" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "TDEE0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "TDEE0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit3" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit3" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit4" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit4" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit4" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit5" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit5" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit5" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit6" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit6" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit7" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit7" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit7" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit7" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit9" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit3" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit3" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit4" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit4" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit4" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit5" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit5" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit5" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit6" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit6" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit7" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit7" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit7" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit7" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit9" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit1" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit3" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit3" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit4" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit4" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit4" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit5" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit5" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit5" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit6" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit6" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit7" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit7" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "digit7" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Common 17-14] Message 'Synth 8-5544' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_menu.v:1713]
+INFO: [Synth 8-5546] ROM "isNumpadA" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isNumpadB" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isNumpadA" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isNumpadB" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/snack_menu.v:1202]
+INFO: [Synth 8-5546] ROM "isNumpadD" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isNumpadE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isNumpadF" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_11_in" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isNumpadD" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isNumpadE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "isNumpadF" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_11_in" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/numpad_digits.v:781]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/numpad_digits.v:600]
+INFO: [Synth 8-5545] ROM "display_num_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "display_num_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "display_num_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "display_num_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "display_num_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "display_num_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "display_num_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "display_num_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:305]
+INFO: [Synth 8-5587] ROM size for "digitsToDisplay1" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "digitsToDisplay2" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "digitsToDisplay3" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "digitsToDisplay3" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "digitsToDisplay4" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5545] ROM "sec0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "isEnd" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "anode" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "run_count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Project_MUX'
+INFO: [Synth 8-5546] ROM "led" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Oled_Display'
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                               01 |                               00
+                  iSTATE |                               10 |                               01
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'screen_reg' using encoding 'one-hot' in module 'Keith_module'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                             0001 |                             0000
+                 iSTATE1 |                             0010 |                             0001
+                 iSTATE2 |                             0100 |                             0010
+                  iSTATE |                             1000 |                             0011
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'an_switch_reg' using encoding 'one-hot' in module 'RJ_menu'
+WARNING: [Synth 8-327] inferring latch for variable 'tempDigits1_reg' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:199]
+WARNING: [Synth 8-327] inferring latch for variable 'tempDigits2_reg' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:202]
+WARNING: [Synth 8-327] inferring latch for variable 'tempDigits3_reg' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:205]
+WARNING: [Synth 8-327] inferring latch for variable 'tempDigits4_reg' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/ee2026/proj base - Copy/MODS.xpr/MODS/MODS.srcs/sources_1/new/workout.v:208]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                               00 |                           000000
+                 iSTATE1 |                               01 |                           000001
+                 iSTATE2 |                               10 |                           000010
+                  iSTATE |                               11 |                           000011
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'Project_MUX'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 PowerUp | 00000000100000000000000000000000 |                            00000
+                   Reset | 00000000000100000000000000000000 |                            00001
+            ReleaseReset | 00000000000000000000100000000000 |                            00011
+            EnableDriver | 00000000000000000001000000000000 |                            00010
+              DisplayOff | 00000000000000000100000000000000 |                            00110
+   SetRemapDisplayFormat | 00000100000000000000000000000000 |                            00111
+            SetStartLine | 00001000000000000000000000000000 |                            00101
+               SetOffset | 10000000000000000000000000000000 |                            00100
+        SetNormalDisplay | 00000000000000000000000010000000 |                            01100
+       SetMultiplexRatio | 00000000000000000000000000100000 |                            01101
+  SetMasterConfiguration | 00000000000000000000000001000000 |                            01111
+        DisablePowerSave | 00000000000000000000000000000100 |                            01110
+          SetPhaseAdjust | 00000000000000000000000000001000 |                            01010
+         SetDisplayClock | 00000000001000000000000000000000 |                            01011
+     SetSecondPrechargeA | 00000000010000000000000000000000 |                            01001
+     SetSecondPrechargeB | 01000000000000000000000000000000 |                            01000
+     SetSecondPrechargeC | 00000010000000000000000000000000 |                            11000
+       SetPrechargeLevel | 00000001000000000000000000000000 |                            11001
+                SetVCOMH | 00000000000000010000000000000000 |                            11011
+        SetMasterCurrent | 00000000000000100000000000000000 |                            11010
+            SetContrastA | 00000000000001000000000000000000 |                            11110
+            SetContrastB | 00100000000000000000000000000000 |                            11111
+            SetContrastC | 00000000000000000000000000000001 |                            11101
+        DisableScrolling | 00000000000000000000000000000010 |                            11100
+             ClearScreen | 00000000000000000000000000010000 |                            10100
+                   VccEn | 00010000000000000000000000000000 |                            10101
+               DisplayOn | 00000000000010000000000000000000 |                            10111
+        PrepareNextFrame | 00000000000000001000000000000000 |                            10110
+           SetColAddress | 00000000000000000000010000000000 |                            10010
+           SetRowAddress | 00000000000000000000000100000000 |                            10011
+           WaitNextFrame | 00000000000000000000001000000000 |                            10001
+               SendPixel | 00000000000000000010000000000000 |                            10000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'Oled_Display'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 917.734 ; gain = 661.137
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------------+------------+----------+
+|      |RTL Partition         |Replication |Instances |
++------+----------------------+------------+----------+
+|1     |RJ_OLED_Control       |           1|     21638|
+|2     |RJ_menu               |           1|      7789|
+|3     |Ari_Main_Control__GB0 |           1|     37143|
+|4     |Ari_Main_Control__GB1 |           1|     13423|
+|5     |Ari_Main_Control__GB2 |           1|     18225|
+|6     |snack_menu            |           1|     18399|
+|7     |Top_Student__GCB0     |           1|     23608|
+|8     |Top_Student__GCB1     |           1|     16265|
++------+----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 23    
+	   2 Input     20 Bit       Adders := 1     
+	   6 Input     19 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 1     
+	   6 Input     16 Bit       Adders := 1     
+	   4 Input     16 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 9     
+	   2 Input      8 Bit       Adders := 14    
+	   2 Input      7 Bit       Adders := 32    
+	   2 Input      6 Bit       Adders := 23    
+	   2 Input      4 Bit       Adders := 8     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               40 Bit    Registers := 1     
+	               32 Bit    Registers := 7     
+	               20 Bit    Registers := 1     
+	               17 Bit    Registers := 2     
+	               16 Bit    Registers := 65    
+	               11 Bit    Registers := 13    
+	               10 Bit    Registers := 5     
+	                8 Bit    Registers := 30    
+	                7 Bit    Registers := 40    
+	                6 Bit    Registers := 9     
+	                5 Bit    Registers := 24    
+	                4 Bit    Registers := 57    
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 104   
++---Multipliers : 
+	                 8x32  Multipliers := 2     
+	                 4x32  Multipliers := 1     
++---RAMs : 
+	              96K Bit         RAMs := 15    
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 2     
+	   4 Input     64 Bit        Muxes := 1     
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 19    
+	   4 Input     32 Bit        Muxes := 3     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 594   
+	   5 Input     16 Bit        Muxes := 1     
+	   3 Input     16 Bit        Muxes := 13    
+	   6 Input     16 Bit        Muxes := 1     
+	   7 Input     16 Bit        Muxes := 1211  
+	   4 Input     16 Bit        Muxes := 417   
+	  12 Input     16 Bit        Muxes := 1     
+	  10 Input     16 Bit        Muxes := 30    
+	  16 Input     16 Bit        Muxes := 1     
+	  17 Input     16 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 1     
+	   5 Input     14 Bit        Muxes := 82    
+	  13 Input     14 Bit        Muxes := 7     
+	  24 Input     14 Bit        Muxes := 3     
+	  26 Input     14 Bit        Muxes := 1     
+	  23 Input     14 Bit        Muxes := 1     
+	   9 Input     14 Bit        Muxes := 1     
+	  20 Input     14 Bit        Muxes := 1     
+	   6 Input     12 Bit        Muxes := 30    
+	   5 Input     12 Bit        Muxes := 6     
+	   2 Input     11 Bit        Muxes := 34    
+	   6 Input     11 Bit        Muxes := 4     
+	   2 Input     10 Bit        Muxes := 5     
+	  11 Input      8 Bit        Muxes := 7     
+	   2 Input      8 Bit        Muxes := 49    
+	  10 Input      8 Bit        Muxes := 3     
+	   9 Input      8 Bit        Muxes := 3     
+	   7 Input      8 Bit        Muxes := 3     
+	   4 Input      8 Bit        Muxes := 6     
+	   8 Input      8 Bit        Muxes := 2     
+	   3 Input      8 Bit        Muxes := 3     
+	  13 Input      8 Bit        Muxes := 2     
+	  15 Input      8 Bit        Muxes := 2     
+	  12 Input      8 Bit        Muxes := 3     
+	  14 Input      8 Bit        Muxes := 2     
+	  16 Input      8 Bit        Muxes := 2     
+	   6 Input      8 Bit        Muxes := 5     
+	   5 Input      8 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 10    
+	   4 Input      7 Bit        Muxes := 12    
+	   4 Input      6 Bit        Muxes := 3     
+	   2 Input      6 Bit        Muxes := 22    
+	   6 Input      6 Bit        Muxes := 1     
+	   5 Input      6 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 27    
+	  32 Input      5 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 15    
+	   4 Input      4 Bit        Muxes := 3     
+	   9 Input      4 Bit        Muxes := 1     
+	  23 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 15    
+	   3 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 18    
+	   4 Input      2 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 598   
+	   6 Input      1 Bit        Muxes := 21    
+	   4 Input      1 Bit        Muxes := 195   
+	   5 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 17    
+	  10 Input      1 Bit        Muxes := 3     
+	   7 Input      1 Bit        Muxes := 475   
+	   8 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 27    
+	  11 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 2     
+	  13 Input      1 Bit        Muxes := 3     
+	  14 Input      1 Bit        Muxes := 1     
+	  15 Input      1 Bit        Muxes := 1     
+	  16 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module RJ_menu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 2     
++---Registers : 
+	               64 Bit    Registers := 1     
+	                8 Bit    Registers := 14    
+	                4 Bit    Registers := 15    
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 2     
+	   4 Input     64 Bit        Muxes := 1     
+	  11 Input      8 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 29    
+	  10 Input      8 Bit        Muxes := 3     
+	   9 Input      8 Bit        Muxes := 3     
+	   7 Input      8 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 3     
+	   8 Input      8 Bit        Muxes := 2     
+	   3 Input      8 Bit        Muxes := 3     
+	  13 Input      8 Bit        Muxes := 2     
+	  15 Input      8 Bit        Muxes := 2     
+	  12 Input      8 Bit        Muxes := 2     
+	  14 Input      8 Bit        Muxes := 2     
+	  16 Input      8 Bit        Muxes := 2     
+	   4 Input      6 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 4     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	   4 Input      4 Bit        Muxes := 2     
+	   9 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 70    
+	   6 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 5     
+	   5 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+	  10 Input      1 Bit        Muxes := 2     
+	   7 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 1     
+	  15 Input      1 Bit        Muxes := 1     
+	  16 Input      1 Bit        Muxes := 1     
+Module RJ_OLED_Control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 5     
+	               10 Bit    Registers := 4     
+	                8 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
++---Multipliers : 
+	                 8x32  Multipliers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 241   
+	   5 Input     16 Bit        Muxes := 1     
+	   3 Input     16 Bit        Muxes := 4     
+	   6 Input     16 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 31    
+	   4 Input      1 Bit        Muxes := 127   
+	   3 Input      1 Bit        Muxes := 14    
+	   7 Input      1 Bit        Muxes := 352   
+	   5 Input      1 Bit        Muxes := 1     
+Module snack_menu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 12    
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   3 Input     16 Bit        Muxes := 2     
+	   7 Input     16 Bit        Muxes := 177   
+	   4 Input     16 Bit        Muxes := 66    
+	   2 Input     16 Bit        Muxes := 41    
+	   5 Input     14 Bit        Muxes := 44    
+	  13 Input     14 Bit        Muxes := 3     
+	  24 Input     14 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 6     
+	   6 Input      6 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 20    
+	   6 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module calorie_menu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 16    
+	                1 Bit    Registers := 13    
++---Muxes : 
+	  12 Input     16 Bit        Muxes := 1     
+	   7 Input     16 Bit        Muxes := 236   
+	   4 Input     16 Bit        Muxes := 88    
+	   2 Input     16 Bit        Muxes := 56    
+	   3 Input     16 Bit        Muxes := 1     
+	   5 Input     14 Bit        Muxes := 38    
+	  13 Input     14 Bit        Muxes := 4     
+	  26 Input     14 Bit        Muxes := 1     
+	  23 Input     14 Bit        Muxes := 1     
+	   9 Input     14 Bit        Muxes := 1     
+	  20 Input     14 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 4     
+	   5 Input      6 Bit        Muxes := 1     
+	  23 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 17    
+	   7 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+Module numpad__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                7 Bit    Registers := 6     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 43    
+	   7 Input     16 Bit        Muxes := 133   
+	  10 Input     16 Bit        Muxes := 5     
+	   2 Input     16 Bit        Muxes := 21    
+	   6 Input     12 Bit        Muxes := 5     
+	   5 Input     12 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 34    
+Module numpad__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                7 Bit    Registers := 6     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 43    
+	   7 Input     16 Bit        Muxes := 133   
+	  10 Input     16 Bit        Muxes := 5     
+	   2 Input     16 Bit        Muxes := 21    
+	   6 Input     12 Bit        Muxes := 5     
+	   5 Input     12 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 34    
+Module oled_data_mux 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module numpad__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                7 Bit    Registers := 6     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 43    
+	   7 Input     16 Bit        Muxes := 133   
+	  10 Input     16 Bit        Muxes := 5     
+	   2 Input     16 Bit        Muxes := 21    
+	   6 Input     12 Bit        Muxes := 5     
+	   5 Input     12 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 34    
+Module numpad__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                7 Bit    Registers := 6     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 43    
+	   7 Input     16 Bit        Muxes := 133   
+	  10 Input     16 Bit        Muxes := 5     
+	   2 Input     16 Bit        Muxes := 21    
+	   6 Input     12 Bit        Muxes := 5     
+	   5 Input     12 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 34    
+Module dff__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff__4 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff__5 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff__6 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff__7 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff__8 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff__9 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff__10 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module numpad__5 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                7 Bit    Registers := 6     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 43    
+	   7 Input     16 Bit        Muxes := 133   
+	  10 Input     16 Bit        Muxes := 5     
+	   2 Input     16 Bit        Muxes := 21    
+	   6 Input     12 Bit        Muxes := 5     
+	   5 Input     12 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 34    
+Module dff__11 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module numpad 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                7 Bit    Registers := 6     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 43    
+	   7 Input     16 Bit        Muxes := 133   
+	  10 Input     16 Bit        Muxes := 5     
+	   2 Input     16 Bit        Muxes := 21    
+	   6 Input     12 Bit        Muxes := 5     
+	   5 Input     12 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 34    
+Module dff__12 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module calorie_led 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 16    
++---Muxes : 
+	  16 Input     16 Bit        Muxes := 1     
+	  17 Input     16 Bit        Muxes := 1     
+Module dff__13 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff__14 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module dff 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module flexible_clock__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module Ari_Main_Control 
+Detailed RTL Component Info : 
++---Adders : 
+	   6 Input     19 Bit       Adders := 1     
+	   6 Input     16 Bit       Adders := 1     
+	   4 Input     16 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 4     
+	                4 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 7     
+	   4 Input      8 Bit        Muxes := 3     
+Module flexible_clock 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module Oled_Display 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module MUX_control 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   7 Input      8 Bit        Muxes := 1     
+	   6 Input      8 Bit        Muxes := 1     
+	   5 Input      8 Bit        Muxes := 1     
+Module BRAM_RJ_page1 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              96K Bit         RAMs := 1     
+Module BRAM_RJ_page2 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              96K Bit         RAMs := 1     
+Module flexible_clock__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module flexible_clock__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module flexible_clock__4 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module flexible_clock__5 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module flexible_clock__6 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module workout 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               20 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Multipliers : 
+	                 4x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 6     
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input     10 Bit        Muxes := 5     
+	  12 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 6     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 31    
+	   4 Input      1 Bit        Muxes := 5     
+	  12 Input      1 Bit        Muxes := 1     
+Module flexible_clock__7 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module BRAM_pushup_up 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              96K Bit         RAMs := 1     
+Module BRAM_pushup_down 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              96K Bit         RAMs := 1     
+Module BRAM_pullup_up 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              96K Bit         RAMs := 1     
+Module BRAM_pullup_down 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              96K Bit         RAMs := 1     
+Module BRAM_situp_up 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              96K Bit         RAMs := 1     
+Module BRAM_situp_down 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              96K Bit         RAMs := 1     
+Module BRAM_run1 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              96K Bit         RAMs := 1     
+Module BRAM_run3 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              96K Bit         RAMs := 1     
+Module BRAM_run4 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              96K Bit         RAMs := 1     
+Module BRAM_run6 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              96K Bit         RAMs := 1     
+Module BRAM_end 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              96K Bit         RAMs := 1     
+Module damien 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 6     
+	   3 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 1     
+Module Project_MUX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	                8 Bit    Registers := 5     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+	   3 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 9     
+	   5 Input      8 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 3     
+Module BRAM_menu 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              96K Bit         RAMs := 1     
+Module BRAM_menu1 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---RAMs : 
+	              96K Bit         RAMs := 1     
+Module Keith_module 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   2 Input     11 Bit       Adders := 8     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 10    
+	               11 Bit    Registers := 12    
+	                8 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 8     
+	   4 Input     32 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 113   
+	   3 Input     16 Bit        Muxes := 4     
+	   4 Input     16 Bit        Muxes := 4     
+	   2 Input     11 Bit        Muxes := 31    
+	   6 Input     11 Bit        Muxes := 4     
+	   6 Input      8 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 4     
+	  11 Input      8 Bit        Muxes := 4     
+	   2 Input      6 Bit        Muxes := 5     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   4 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 11    
+	   3 Input      2 Bit        Muxes := 5     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 208   
+	   4 Input      1 Bit        Muxes := 54    
+	   3 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 26    
+	  13 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 8     
+	   7 Input      1 Bit        Muxes := 121   
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "an_count" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design Top_Student has unconnected port JC[2]
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\UserInputs/Btn_control /\anode3_W_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\UserInputs/Btn_control /\anode3_H_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\UserInputs/Btn_control /\anode3_age_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\UserInputs/Btn_control /\anode3_months_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\UserInputs/Btn_control /\anode3_WL_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\UserInputs/Btn_control /\anode2_W_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\UserInputs/Btn_control /\anode2_H_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\UserInputs/Btn_control /\anode2_age_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\UserInputs/Btn_control /\anode2_months_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\UserInputs/Btn_control /\anode2_WL_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\UserInputs/Btn_control /\anode1_W_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\UserInputs/Btn_control /\anode1_H_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\UserInputs/Btn_control /\anode1_age_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (anode3_age_reg[7]) is unused and will be removed from module RJ_menu.
+WARNING: [Synth 8-3332] Sequential element (anode3_W_reg[7]) is unused and will be removed from module RJ_menu.
+WARNING: [Synth 8-3332] Sequential element (anode3_H_reg[7]) is unused and will be removed from module RJ_menu.
+WARNING: [Synth 8-3332] Sequential element (anode2_H_reg[7]) is unused and will be removed from module RJ_menu.
+WARNING: [Synth 8-3332] Sequential element (anode2_W_reg[7]) is unused and will be removed from module RJ_menu.
+WARNING: [Synth 8-3332] Sequential element (anode2_age_reg[7]) is unused and will be removed from module RJ_menu.
+WARNING: [Synth 8-3332] Sequential element (anode3_WL_reg[7]) is unused and will be removed from module RJ_menu.
+WARNING: [Synth 8-3332] Sequential element (anode3_months_reg[7]) is unused and will be removed from module RJ_menu.
+WARNING: [Synth 8-3332] Sequential element (anode1_H_reg[7]) is unused and will be removed from module RJ_menu.
+WARNING: [Synth 8-3332] Sequential element (anode1_W_reg[7]) is unused and will be removed from module RJ_menu.
+WARNING: [Synth 8-3332] Sequential element (anode1_age_reg[7]) is unused and will be removed from module RJ_menu.
+WARNING: [Synth 8-3332] Sequential element (anode2_WL_reg[7]) is unused and will be removed from module RJ_menu.
+WARNING: [Synth 8-3332] Sequential element (anode2_months_reg[7]) is unused and will be removed from module RJ_menu.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\UserInputs/Btn_control /\seg_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (seg_reg[7]) is unused and will be removed from module RJ_menu.
+DSP Report: Generating DSP BMI1, operation Mode is: A2*B2.
+DSP Report: register actual_height_reg is absorbed into DSP BMI1.
+DSP Report: register actual_height_reg is absorbed into DSP BMI1.
+DSP Report: operator BMI1 is absorbed into DSP BMI1.
+DSP Report: Generating DSP BMI1, operation Mode is: (A:0x186a0)*B2.
+DSP Report: register actual_weight_reg is absorbed into DSP BMI1.
+DSP Report: operator BMI1 is absorbed into DSP BMI1.
+DSP Report: Generating DSP deficit1, operation Mode is: (A:0x1b58)*B2.
+DSP Report: register actual_WL_reg is absorbed into DSP deficit1.
+DSP Report: operator deficit1 is absorbed into DSP deficit1.
+DSP Report: Generating DSP TDEE9, operation Mode is: A2*(B:0x19).
+DSP Report: register actual_height_reg is absorbed into DSP TDEE9.
+DSP Report: operator TDEE9 is absorbed into DSP TDEE9.
+INFO: [Synth 8-3886] merging instance 'BMI_colour_reg[0]' (FDE) to 'BMI_colour_reg[1]'
+INFO: [Synth 8-3886] merging instance 'deficit_colour_reg[0]' (FDRE) to 'deficit_colour_reg[1]'
+INFO: [Synth 8-3886] merging instance 'BMI_colour_reg[1]' (FDE) to 'BMI_colour_reg[2]'
+INFO: [Synth 8-3886] merging instance 'deficit_colour_reg[1]' (FDRE) to 'deficit_colour_reg[2]'
+INFO: [Synth 8-3886] merging instance 'deficit_colour_reg[2]' (FDRE) to 'deficit_colour_reg[3]'
+INFO: [Synth 8-3886] merging instance 'BMI_colour_reg[3]' (FDE) to 'BMI_colour_reg[4]'
+INFO: [Synth 8-3886] merging instance 'deficit_colour_reg[3]' (FDRE) to 'deficit_colour_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\deficit_colour_reg[4] )
+INFO: [Synth 8-3886] merging instance 'deficit_colour_reg[5]' (FDSE) to 'deficit_colour_reg[6]'
+INFO: [Synth 8-3886] merging instance 'deficit_colour_reg[7]' (FDSE) to 'deficit_colour_reg[8]'
+INFO: [Synth 8-3886] merging instance 'deficit_colour_reg[8]' (FDSE) to 'deficit_colour_reg[9]'
+INFO: [Synth 8-3886] merging instance 'deficit_colour_reg[9]' (FDSE) to 'deficit_colour_reg[10]'
+INFO: [Synth 8-3886] merging instance 'BMI_colour_reg[11]' (FDE) to 'BMI_colour_reg[12]'
+INFO: [Synth 8-3886] merging instance 'deficit_colour_reg[11]' (FDRE) to 'deficit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'BMI_colour_reg[12]' (FDE) to 'BMI_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'deficit_colour_reg[12]' (FDRE) to 'deficit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'BMI_colour_reg[13]' (FDE) to 'BMI_colour_reg[14]'
+INFO: [Synth 8-3886] merging instance 'deficit_colour_reg[13]' (FDRE) to 'deficit_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'BMI_colour_reg[14]' (FDE) to 'BMI_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'deficit_colour_reg[14]' (FDRE) to 'deficit_colour_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\BMI_control_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\deficit_control_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (deficit_control_reg[1]) is unused and will be removed from module RJ_OLED_Control.
+WARNING: [Synth 8-3332] Sequential element (BMI_control_reg[1]) is unused and will be removed from module RJ_OLED_Control.
+WARNING: [Synth 8-3332] Sequential element (deficit_colour_reg[4]) is unused and will be removed from module RJ_OLED_Control.
+INFO: [Synth 8-5546] ROM "pad_C/" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pad_E/" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "pad_C/display_num_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_C/display_num_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_C/display_num_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_C/display_num_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_E/display_num_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_E/display_num_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_E/display_num_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_E/display_num_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_C/display_num_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_C/display_num_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_C/display_num_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_C/display_num_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_E/display_num_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_E/display_num_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_E/display_num_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_E/display_num_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+DSP Report: Generating DSP pad_C/calorie_count2, operation Mode is: A*(B:0xa).
+DSP Report: operator pad_C/calorie_count2 is absorbed into DSP pad_C/calorie_count2.
+DSP Report: Generating DSP pad_C/calorie_count0, operation Mode is: PCIN+(A:0x3e8)*B.
+DSP Report: operator pad_C/calorie_count0 is absorbed into DSP pad_C/calorie_count0.
+DSP Report: operator pad_C/calorie_count3 is absorbed into DSP pad_C/calorie_count0.
+DSP Report: Generating DSP pad_E/calorie_count2, operation Mode is: A*(B:0xa).
+DSP Report: operator pad_E/calorie_count2 is absorbed into DSP pad_E/calorie_count2.
+DSP Report: Generating DSP pad_E/calorie_count0, operation Mode is: PCIN+(A:0x3e8)*B.
+DSP Report: operator pad_E/calorie_count0 is absorbed into DSP pad_E/calorie_count0.
+DSP Report: operator pad_E/calorie_count3 is absorbed into DSP pad_E/calorie_count0.
+WARNING: [Synth 8-3331] design calorie_menu has unconnected port btnR
+INFO: [Synth 8-3886] merging instance 'pad_E/lineRight_reg[0]' (FDE) to 'pad_E/lineRight_reg[4]'
+INFO: [Synth 8-3886] merging instance 'pad_C/lineRight_reg[0]' (FDE) to 'pad_C/lineRight_reg[4]'
+INFO: [Synth 8-3886] merging instance 'pad_E/lineLeft_reg[2]' (FDE) to 'pad_E/lineLeft_reg[5]'
+INFO: [Synth 8-3886] merging instance 'pad_C/lineLeft_reg[2]' (FDE) to 'pad_C/lineLeft_reg[5]'
+INFO: [Synth 8-3886] merging instance 'pad_E/oled_data_reg[1]' (FD) to 'pad_C/oled_data_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pad_C/oled_data_reg[1]' (FD) to 'pad_C/oled_data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'menuscreen/oled_data_reg[1]' (FDR) to 'menuscreen/oled_data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'pad_E/oled_data_reg[2]' (FD) to 'pad_C/oled_data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'pad_C/oled_data_reg[2]' (FD) to 'pad_C/oled_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'menuscreen/oled_data_reg[2]' (FDR) to 'menuscreen/oled_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'pad_E/oled_data_reg[5]' (FD) to 'pad_C/oled_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'pad_C/oled_data_reg[5]' (FD) to 'pad_C/oled_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'menuscreen/oled_data_reg[5]' (FDR) to 'menuscreen/oled_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'pad_E/oled_data_reg[6]' (FD) to 'pad_E/oled_data_reg[10]'
+INFO: [Synth 8-3886] merging instance 'pad_C/oled_data_reg[6]' (FD) to 'pad_C/oled_data_reg[10]'
+INFO: [Synth 8-3886] merging instance 'menuscreen/oled_data_reg[6]' (FDR) to 'menuscreen/oled_data_reg[10]'
+INFO: [Synth 8-3886] merging instance 'pad_E/oled_data_reg[7]' (FD) to 'pad_C/oled_data_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pad_C/oled_data_reg[7] )
+INFO: [Synth 8-3886] merging instance 'pad_E/oled_data_reg[8]' (FD) to 'pad_E/oled_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'pad_C/oled_data_reg[8]' (FD) to 'pad_C/oled_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'menuscreen/oled_data_reg[8]' (FDR) to 'menuscreen/oled_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'menuscreen/oled_data_reg[9]' (FDR) to 'menuscreen/oled_data_reg[11]'
+INFO: [Synth 8-3886] merging instance 'pad_E/oled_data_reg[14]' (FD) to 'pad_E/oled_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pad_C/oled_data_reg[14]' (FD) to 'pad_C/oled_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'menuscreen/oled_data_reg[14]' (FDR) to 'menuscreen/oled_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pad_E/lineLeft_reg[4]' (FDE) to 'pad_E/lineRight_reg[4]'
+INFO: [Synth 8-3886] merging instance 'pad_E/lineLeft_reg[5]' (FDE) to 'pad_E/lineRight_reg[5]'
+INFO: [Synth 8-3886] merging instance 'pad_E/lineLeft_reg[6]' (FDE) to 'pad_E/lineRight_reg[6]'
+INFO: [Synth 8-3886] merging instance 'pad_C/lineLeft_reg[4]' (FDE) to 'pad_C/lineRight_reg[4]'
+INFO: [Synth 8-3886] merging instance 'pad_C/lineLeft_reg[5]' (FDE) to 'pad_C/lineRight_reg[5]'
+INFO: [Synth 8-3886] merging instance 'pad_C/lineLeft_reg[6]' (FDE) to 'pad_C/lineRight_reg[6]'
+INFO: [Synth 8-3886] merging instance 'pad_E/oled_data_reg[12]' (FD) to 'pad_C/oled_data_reg[12]'
+INFO: [Synth 8-5546] ROM "pad_B/" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pad_A/" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "pad_B/display_num_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_B/display_num_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_B/display_num_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_B/display_num_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_A/display_num_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_A/display_num_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_A/display_num_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_A/display_num_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_B/display_num_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_B/display_num_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_B/display_num_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_B/display_num_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_A/display_num_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_A/display_num_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_A/display_num_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_A/display_num_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+DSP Report: Generating DSP pad_B/calorie_count2, operation Mode is: A*(B:0xa).
+DSP Report: operator pad_B/calorie_count2 is absorbed into DSP pad_B/calorie_count2.
+DSP Report: Generating DSP pad_B/calorie_count0, operation Mode is: PCIN+(A:0x3e8)*B.
+DSP Report: operator pad_B/calorie_count0 is absorbed into DSP pad_B/calorie_count0.
+DSP Report: operator pad_B/calorie_count3 is absorbed into DSP pad_B/calorie_count0.
+DSP Report: Generating DSP pad_A/calorie_count2, operation Mode is: A*(B:0xa).
+DSP Report: operator pad_A/calorie_count2 is absorbed into DSP pad_A/calorie_count2.
+DSP Report: Generating DSP pad_A/calorie_count0, operation Mode is: PCIN+(A:0x3e8)*B.
+DSP Report: operator pad_A/calorie_count0 is absorbed into DSP pad_A/calorie_count0.
+DSP Report: operator pad_A/calorie_count3 is absorbed into DSP pad_A/calorie_count0.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pad_B/oled_data_reg[7] )
+INFO: [Synth 8-5546] ROM "pad_D/" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pad_F/" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "pad_D/display_num_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_D/display_num_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_D/display_num_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_D/display_num_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_F/display_num_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_F/display_num_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_F/display_num_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_F/display_num_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-4471] merging register 'cal_reg[15:0]' into 'cal_reg[15:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+INFO: [Synth 8-4471] merging register 'cal_reg[15:0]' into 'cal_reg[15:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+INFO: [Synth 8-4471] merging register 'cal_reg[15:0]' into 'cal_reg[15:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+INFO: [Synth 8-4471] merging register 'cal_reg[15:0]' into 'cal_reg[15:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+INFO: [Synth 8-4471] merging register 'cal_reg[15:0]' into 'cal_reg[15:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+INFO: [Synth 8-4471] merging register 'cal_reg[15:0]' into 'cal_reg[15:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+INFO: [Synth 8-4471] merging register 'cal_reg[15:0]' into 'cal_reg[15:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+INFO: [Synth 8-4471] merging register 'cal_reg[15:0]' into 'cal_reg[15:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+INFO: [Synth 8-4471] merging register 'cal_reg[15:0]' into 'cal_reg[15:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+INFO: [Synth 8-4471] merging register 'cal_reg[15:0]' into 'cal_reg[15:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+INFO: [Synth 8-4471] merging register 'cal_reg[15:0]' into 'cal_reg[15:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+INFO: [Synth 8-4471] merging register 'cal_reg[15:0]' into 'cal_reg[15:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+INFO: [Synth 8-4471] merging register 'cal_reg[15:0]' into 'cal_reg[15:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+INFO: [Synth 8-4471] merging register 'cal_reg[15:0]' into 'cal_reg[15:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+WARNING: [Synth 8-6014] Unused sequential element cal_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+WARNING: [Synth 8-6014] Unused sequential element cal_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+WARNING: [Synth 8-6014] Unused sequential element cal_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+WARNING: [Synth 8-6014] Unused sequential element cal_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+WARNING: [Synth 8-6014] Unused sequential element cal_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+WARNING: [Synth 8-6014] Unused sequential element cal_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+WARNING: [Synth 8-6014] Unused sequential element cal_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+WARNING: [Synth 8-6014] Unused sequential element cal_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+WARNING: [Synth 8-6014] Unused sequential element cal_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+WARNING: [Synth 8-6014] Unused sequential element cal_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+WARNING: [Synth 8-6014] Unused sequential element cal_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+WARNING: [Synth 8-6014] Unused sequential element cal_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+WARNING: [Synth 8-6014] Unused sequential element cal_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+WARNING: [Synth 8-6014] Unused sequential element cal_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/imports/EE2026labs/calorie_tracker/calorie_tracker.srcs/sources_1/new/calorie_led.v:34]
+INFO: [Synth 8-5545] ROM "slow_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_D/display_num_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_D/display_num_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_D/display_num_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_D/display_num_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_F/display_num_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_F/display_num_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_F/display_num_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "pad_F/display_num_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+DSP Report: Generating DSP pad_D/calorie_count2, operation Mode is: A*(B:0xa).
+DSP Report: operator pad_D/calorie_count2 is absorbed into DSP pad_D/calorie_count2.
+DSP Report: Generating DSP pad_D/calorie_count0, operation Mode is: PCIN+(A:0x3e8)*B.
+DSP Report: operator pad_D/calorie_count0 is absorbed into DSP pad_D/calorie_count0.
+DSP Report: operator pad_D/calorie_count3 is absorbed into DSP pad_D/calorie_count0.
+DSP Report: Generating DSP pad_F/calorie_count2, operation Mode is: A*(B:0xa).
+DSP Report: operator pad_F/calorie_count2 is absorbed into DSP pad_F/calorie_count2.
+DSP Report: Generating DSP pad_F/calorie_count0, operation Mode is: PCIN+(A:0x3e8)*B.
+DSP Report: operator pad_F/calorie_count0 is absorbed into DSP pad_F/calorie_count0.
+DSP Report: operator pad_F/calorie_count3 is absorbed into DSP pad_F/calorie_count0.
+INFO: [Synth 8-3886] merging instance 'pad_F/lineRight_reg[0]' (FDE) to 'pad_F/lineRight_reg[4]'
+INFO: [Synth 8-3886] merging instance 'pad_D/lineRight_reg[0]' (FDE) to 'pad_D/lineRight_reg[4]'
+INFO: [Synth 8-3886] merging instance 'pad_F/lineLeft_reg[2]' (FDE) to 'pad_F/lineLeft_reg[5]'
+INFO: [Synth 8-3886] merging instance 'pad_D/lineLeft_reg[2]' (FDE) to 'pad_D/lineLeft_reg[5]'
+INFO: [Synth 8-3886] merging instance 'seg3_reg[7]' (FDS) to 'seg2_reg[7]'
+INFO: [Synth 8-3886] merging instance 'seg2_reg[7]' (FDS) to 'seg0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'seg1_reg[7]' (FDS) to 'seg0_reg[7]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\seg0_reg[7] )
+INFO: [Synth 8-3886] merging instance 'pad_F/oled_data_reg[1]' (FD) to 'pad_F/oled_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'pad_F/oled_data_reg[2]' (FD) to 'pad_F/oled_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'pad_F/oled_data_reg[5]' (FD) to 'pad_F/oled_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'pad_F/oled_data_reg[6]' (FD) to 'pad_F/oled_data_reg[10]'
+INFO: [Synth 8-3886] merging instance 'pad_F/oled_data_reg[7]' (FD) to 'pad_D/oled_data_reg[1]'
+INFO: [Synth 8-3886] merging instance 'pad_F/oled_data_reg[8]' (FD) to 'pad_F/oled_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'pad_F/oled_data_reg[14]' (FD) to 'pad_F/oled_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pad_D/oled_data_reg[1]' (FD) to 'pad_D/oled_data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'pad_D/oled_data_reg[2]' (FD) to 'pad_D/oled_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'pad_D/oled_data_reg[5]' (FD) to 'pad_D/oled_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'pad_D/oled_data_reg[6]' (FD) to 'pad_D/oled_data_reg[10]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\pad_D/oled_data_reg[7] )
+INFO: [Synth 8-3886] merging instance 'pad_D/oled_data_reg[8]' (FD) to 'pad_D/oled_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'pad_D/oled_data_reg[14]' (FD) to 'pad_D/oled_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pad_F/lineLeft_reg[4]' (FDE) to 'pad_F/lineRight_reg[4]'
+INFO: [Synth 8-3886] merging instance 'pad_F/lineLeft_reg[5]' (FDE) to 'pad_F/lineRight_reg[5]'
+INFO: [Synth 8-3886] merging instance 'pad_F/lineLeft_reg[6]' (FDE) to 'pad_F/lineRight_reg[6]'
+INFO: [Synth 8-3886] merging instance 'pad_D/lineLeft_reg[4]' (FDE) to 'pad_D/lineRight_reg[4]'
+INFO: [Synth 8-3886] merging instance 'pad_D/lineLeft_reg[5]' (FDE) to 'pad_D/lineRight_reg[5]'
+INFO: [Synth 8-3886] merging instance 'pad_D/lineLeft_reg[6]' (FDE) to 'pad_D/lineRight_reg[6]'
+INFO: [Synth 8-3886] merging instance 'pad_F/oled_data_reg[12]' (FD) to 'pad_D/oled_data_reg[12]'
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[7]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[6]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[5]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[4]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[3]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[2]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[1]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port control[0]
+WARNING: [Synth 8-3331] design snack_menu has unconnected port btnL
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (movedRight_reg)
+INFO: [Synth 8-3886] merging instance 'oled_data_reg[1]' (FDR) to 'oled_data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'oled_data_reg[2]' (FDR) to 'oled_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'oled_data_reg[5]' (FDR) to 'oled_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'oled_data_reg[6]' (FDR) to 'oled_data_reg[10]'
+INFO: [Synth 8-3886] merging instance 'oled_data_reg[8]' (FDR) to 'oled_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'oled_data_reg[9]' (FDR) to 'oled_data_reg[11]'
+INFO: [Synth 8-3886] merging instance 'oled_data_reg[14]' (FDR) to 'oled_data_reg[15]'
+WARNING: [Synth 8-3332] Sequential element (movedRight_reg) is unused and will be removed from module snack_menu.
+INFO: [Synth 8-5545] ROM "clk20/slow_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk10/slow_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk5/slow_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk2p5/slow_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk1/slow_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "sec0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "isEnd" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "anode" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "slow_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "clk20/slow_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk1/slow_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk10/slow_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk5/slow_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk2p5/slow_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "sec0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "isEnd" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "anode" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "clk10/slow_clock0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "run_count0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-3886] merging instance 'MUX/control_reg[2]' (FDRE) to 'MUX/control_reg[3]'
+INFO: [Synth 8-3886] merging instance 'MUX/control_reg[3]' (FDRE) to 'MUX/control_reg[4]'
+INFO: [Synth 8-3886] merging instance 'MUX/control_reg[4]' (FDRE) to 'MUX/control_reg[5]'
+INFO: [Synth 8-3886] merging instance 'MUX/control_reg[5]' (FDRE) to 'MUX/control_reg[6]'
+INFO: [Synth 8-3886] merging instance 'MUX/control_reg[6]' (FDRE) to 'MUX/control_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\MUX/control_reg[7] )
+INFO: [Synth 8-4471] merging register 'num_pushup_reg[10:0]' into 'num_pushup_reg[10:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:1203]
+INFO: [Synth 8-4471] merging register 'num_pullup_reg[10:0]' into 'num_pullup_reg[10:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:1203]
+INFO: [Synth 8-4471] merging register 'num_running_reg[10:0]' into 'num_running_reg[10:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:1203]
+INFO: [Synth 8-4471] merging register 'num_situp_reg[10:0]' into 'num_situp_reg[10:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:1203]
+INFO: [Synth 8-4471] merging register 'num_pushup_reg[10:0]' into 'num_pushup_reg[10:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:1203]
+INFO: [Synth 8-4471] merging register 'num_situp_reg[10:0]' into 'num_situp_reg[10:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:1203]
+INFO: [Synth 8-4471] merging register 'num_pullup_reg[10:0]' into 'num_pullup_reg[10:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:1203]
+INFO: [Synth 8-4471] merging register 'num_running_reg[10:0]' into 'num_running_reg[10:0]' [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:1203]
+WARNING: [Synth 8-6014] Unused sequential element num_pushup_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:1203]
+WARNING: [Synth 8-6014] Unused sequential element num_pullup_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:1203]
+WARNING: [Synth 8-6014] Unused sequential element num_running_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:1203]
+WARNING: [Synth 8-6014] Unused sequential element num_situp_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:1203]
+WARNING: [Synth 8-6014] Unused sequential element num_pushup_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:1203]
+WARNING: [Synth 8-6014] Unused sequential element num_situp_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:1203]
+WARNING: [Synth 8-6014] Unused sequential element num_pullup_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:1203]
+WARNING: [Synth 8-6014] Unused sequential element num_running_reg was removed.  [C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.srcs/sources_1/new/Keith_module.v:1203]
+DSP Report: Generating DSP run_out_reg, operation Mode is: (A2*(B:0x3c))'.
+DSP Report: register num_running_reg is absorbed into DSP run_out_reg.
+DSP Report: register run_out_reg is absorbed into DSP run_out_reg.
+DSP Report: operator run_out0 is absorbed into DSP run_out_reg.
+INFO: [Synth 8-3886] merging instance 'Workout/pushup_Scolor_reg[0]' (FDE) to 'Workout/pushup_Scolor_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Workout/situp_Scolor_reg[0]' (FDSE) to 'Workout/situp_Scolor_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Workout/pullup_Scolor_reg[0]' (FDSE) to 'Workout/pullup_Scolor_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Workout/running_Scolor_reg[0]' (FDSE) to 'Workout/running_Scolor_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Workout/pushup_color_reg[0]' (FDE) to 'Workout/pushup_color_reg[15]'
+INFO: [Synth 8-3886] merging instance 'Workout/situp_color_reg[0]' (FDE) to 'Workout/situp_color_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Workout/pullup_color_reg[0]' (FDE) to 'Workout/pullup_color_reg[1]'
+INFO: [Synth 8-3886] merging instance 'Workout/running_color_reg[0]' (FDE) to 'Workout/running_color_reg[15]'
+INFO: [Synth 8-3886] merging instance 'Workout/pushup_Scolor_reg[1]' (FDE) to 'Workout/pushup_Scolor_reg[4]'
+INFO: [Synth 8-3886] merging instance 'Workout/situp_Scolor_reg[1]' (FDSE) to 'Workout/situp_Scolor_reg[2]'
+INFO: [Synth 8-3886] merging instance 'Workout/pullup_Scolor_reg[1]' (FDSE) to 'Workout/pullup_Scolor_reg[2]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Workout/\random_control_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Workout/\state_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Workout/\pull_out_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Workout/\sit_out_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Workout/\push_out_reg[0] )
+WARNING: [Synth 8-3332] Sequential element (state_reg[3]) is unused and will be removed from module Keith_module.
+WARNING: [Synth 8-3332] Sequential element (random_control_reg[1]) is unused and will be removed from module Keith_module.
+WARNING: [Synth 8-3332] Sequential element (push_out_reg[10]) is unused and will be removed from module Keith_module.
+WARNING: [Synth 8-3332] Sequential element (push_out_reg[0]) is unused and will be removed from module Keith_module.
+WARNING: [Synth 8-3332] Sequential element (sit_out_reg[10]) is unused and will be removed from module Keith_module.
+WARNING: [Synth 8-3332] Sequential element (sit_out_reg[0]) is unused and will be removed from module Keith_module.
+WARNING: [Synth 8-3332] Sequential element (pull_out_reg[10]) is unused and will be removed from module Keith_module.
+WARNING: [Synth 8-3332] Sequential element (pull_out_reg[0]) is unused and will be removed from module Keith_module.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Workout/i_8/\flicker_count_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Workout/i_8/\count1_reg[30] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:16 ; elapsed = 00:01:41 . Memory (MB): peak = 917.734 ; gain = 661.137
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-5835] Resources of type BRAM have been overutilized. Used = 120, Available = 100. Will try to implement using LUT-RAM. 
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping  Report (see note below)
++------------------+---------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name       | RTL Object    | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------------+---------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|BRAM_pushup_down: | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_pullup_up:   | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_pullup_down: | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_situp_up:    | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_situp_down:  | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_run1:        | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_run3:        | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_run4:        | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_run6:        | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_end:         | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_menu:        | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_menu1:       | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
++------------------+---------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The tale above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+-------------------------------------+-----------+----------------------+-------------------+
+|Module Name | RTL Object                          | Inference | Size (Depth x Width) | Primitives        | 
++------------+-------------------------------------+-----------+----------------------+-------------------+
+|Top_Student | nolabel_line84/reg_array_reg        | Implied   | 8 K x 16             | RAM256X1S x 384   | 
+|Top_Student | nolabel_line85/reg_array_reg        | Implied   | 8 K x 16             | RAM256X1S x 384   | 
+|Top_Student | damien/nolabel_line87/reg_array_reg | Implied   | 8 K x 16             | RAM256X1S x 384   | 
++------------+-------------------------------------+-----------+----------------------+-------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping  Report (see note below)
++----------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name     | DSP Mapping      | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|RJ_OLED_Control | A2*B2            | 10     | 10     | -      | -      | 20     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|RJ_OLED_Control | (A:0x186a0)*B2   | 10     | 17     | -      | -      | 27     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|RJ_OLED_Control | (A:0x1b58)*B2    | 8      | 13     | -      | -      | 21     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|RJ_OLED_Control | A2*(B:0x19)      | 10     | 5      | -      | -      | 15     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|numpad          | A*(B:0xa)        | 5      | 4      | -      | -      | 9      | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|numpad          | PCIN+(A:0x3e8)*B | 10     | 5      | -      | -      | 16     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|numpad          | A*(B:0xa)        | 5      | 4      | -      | -      | 9      | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|numpad          | PCIN+(A:0x3e8)*B | 10     | 5      | -      | -      | 16     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|numpad          | A*(B:0xa)        | 5      | 4      | -      | -      | 9      | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|numpad          | PCIN+(A:0x3e8)*B | 10     | 5      | -      | -      | 16     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|numpad          | A*(B:0xa)        | 5      | 4      | -      | -      | 9      | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|numpad          | PCIN+(A:0x3e8)*B | 10     | 5      | -      | -      | 16     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|numpad          | A*(B:0xa)        | 5      | 4      | -      | -      | 9      | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|numpad          | PCIN+(A:0x3e8)*B | 10     | 5      | -      | -      | 16     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|numpad          | A*(B:0xa)        | 5      | 4      | -      | -      | 9      | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|numpad          | PCIN+(A:0x3e8)*B | 10     | 5      | -      | -      | 16     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|Keith_module    | (A2*(B:0x3c))'   | 11     | 6      | -      | -      | 17     | 1    | 0    | -    | -    | -     | 1    | 0    | 
++----------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance i_0/i_9/damien/nolabel_line88/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_9/damien/nolabel_line88/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_9/damien/nolabel_line88/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_9/damien/nolabel_line88/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_10/damien/nolabel_line90/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_10/damien/nolabel_line90/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_10/damien/nolabel_line90/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_10/damien/nolabel_line90/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_11/damien/nolabel_line91/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_11/damien/nolabel_line91/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_11/damien/nolabel_line91/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_11/damien/nolabel_line91/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_12/damien/nolabel_line93/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_12/damien/nolabel_line93/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_12/damien/nolabel_line93/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_12/damien/nolabel_line93/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_13/damien/nolabel_line94/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_13/damien/nolabel_line94/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_13/damien/nolabel_line94/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_13/damien/nolabel_line94/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_14/damien/nolabel_line96/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_14/damien/nolabel_line96/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_14/damien/nolabel_line96/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_14/damien/nolabel_line96/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_15/damien/nolabel_line98/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_15/damien/nolabel_line98/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_15/damien/nolabel_line98/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_15/damien/nolabel_line98/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_16/damien/nolabel_line99/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_16/damien/nolabel_line99/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_16/damien/nolabel_line99/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_16/damien/nolabel_line99/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_17/damien/nolabel_line101/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_17/damien/nolabel_line101/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_17/damien/nolabel_line101/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_17/damien/nolabel_line101/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_18/damien/nolabel_line103/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_18/damien/nolabel_line103/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_18/damien/nolabel_line103/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/i_18/damien/nolabel_line103/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_1/Workout/i_0/nolabel_line36/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_1/Workout/i_0/nolabel_line36/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_1/Workout/i_0/nolabel_line36/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_1/Workout/i_0/nolabel_line36/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_1/Workout/i_1/nolabel_line37/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_1/Workout/i_1/nolabel_line37/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_1/Workout/i_1/nolabel_line37/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_1/Workout/i_1/nolabel_line37/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++------+----------------------+------------+----------+
+|      |RTL Partition         |Replication |Instances |
++------+----------------------+------------+----------+
+|1     |RJ_OLED_Control       |           1|     15669|
+|2     |RJ_menu               |           1|      1801|
+|3     |Ari_Main_Control__GB0 |           1|     10543|
+|4     |Ari_Main_Control__GB1 |           1|      4397|
+|5     |Ari_Main_Control__GB2 |           1|      7467|
+|6     |snack_menu            |           1|      4919|
+|7     |Top_Student__GCB0     |           1|     13756|
+|8     |Top_Student__GCB1     |           1|      6429|
++------+----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:28 ; elapsed = 00:01:55 . Memory (MB): peak = 967.844 ; gain = 711.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\damien/workout /\countUpTo_reg[0] )
+WARNING: [Synth 8-3332] Sequential element (countUpTo_reg[0]) is unused and will be removed from module workout.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:34 ; elapsed = 00:02:01 . Memory (MB): peak = 1018.691 ; gain = 762.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping  Report
++------------------+---------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name       | RTL Object    | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------------+---------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|BRAM_pushup_down: | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_pullup_up:   | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_pullup_down: | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_situp_up:    | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_situp_down:  | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_run1:        | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_run3:        | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_run4:        | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_run6:        | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_end:         | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_menu:        | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
+|BRAM_menu1:       | reg_array_reg | 8 K x 16(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
++------------------+---------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping  Report
++------------+-------------------------------------+-----------+----------------------+-------------------+
+|Module Name | RTL Object                          | Inference | Size (Depth x Width) | Primitives        | 
++------------+-------------------------------------+-----------+----------------------+-------------------+
+|Top_Student | nolabel_line84/reg_array_reg        | Implied   | 8 K x 16             | RAM256X1S x 384   | 
+|Top_Student | nolabel_line85/reg_array_reg        | Implied   | 8 K x 16             | RAM256X1S x 384   | 
+|Top_Student | damien/nolabel_line87/reg_array_reg | Implied   | 8 K x 16             | RAM256X1S x 384   | 
++------------+-------------------------------------+-----------+----------------------+-------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------------+------------+----------+
+|      |RTL Partition         |Replication |Instances |
++------+----------------------+------------+----------+
+|1     |RJ_OLED_Control       |           1|     15664|
+|2     |RJ_menu               |           1|      1786|
+|3     |Ari_Main_Control__GB0 |           1|     10337|
+|4     |Ari_Main_Control__GB1 |           1|      4397|
+|5     |Ari_Main_Control__GB2 |           1|      7468|
+|6     |snack_menu            |           1|      4919|
+|7     |Top_Student__GCB0     |           1|     12639|
+|8     |Top_Student__GCB1     |           1|      6424|
++------+----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance i_1/Workout/nolabel_line36/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_1/Workout/nolabel_line36/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_1/Workout/nolabel_line36/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_1/Workout/nolabel_line36/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_1/Workout/nolabel_line37/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_1/Workout/nolabel_line37/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_1/Workout/nolabel_line37/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_1/Workout/nolabel_line37/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line88/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line88/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line88/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line88/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line90/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line90/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line90/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line90/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line91/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line91/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line91/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line91/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line93/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line93/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line93/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line93/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line94/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line94/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line94/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line94/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line96/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line96/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line96/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line96/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line98/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line98/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line98/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line98/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line99/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line99/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line99/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line99/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line101/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line101/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line101/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line101/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line103/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line103/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line103/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance i_0/damien/nolabel_line103/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:45 ; elapsed = 00:02:11 . Memory (MB): peak = 1081.941 ; gain = 825.344
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------------+------------+----------+
+|      |RTL Partition         |Replication |Instances |
++------+----------------------+------------+----------+
+|1     |RJ_OLED_Control       |           1|      5569|
+|2     |RJ_menu               |           1|      1171|
+|3     |Ari_Main_Control__GB0 |           1|      3310|
+|4     |Ari_Main_Control__GB1 |           1|      1528|
+|5     |Ari_Main_Control__GB2 |           1|      2809|
+|6     |snack_menu            |           1|      1549|
+|7     |Top_Student__GCB0     |           1|      7389|
+|8     |Top_Student__GCB1     |           1|      2305|
++------+----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Workout/num_kcal_burn_reg[15] )
+WARNING: [Synth 8-3332] Sequential element (Workout/num_kcal_burn_reg[15]) is unused and will be removed from module Top_Student.
+INFO: [Synth 8-4480] The timing for the instance damien/nolabel_line88/reg_array_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance damien/nolabel_line88/reg_array_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance damien/nolabel_line88/reg_array_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance damien/nolabel_line88/reg_array_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Common 17-14] Message 'Synth 8-4480' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:50 ; elapsed = 00:02:16 . Memory (MB): peak = 1081.941 ; gain = 825.344
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:50 ; elapsed = 00:02:16 . Memory (MB): peak = 1081.941 ; gain = 825.344
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:52 ; elapsed = 00:02:18 . Memory (MB): peak = 1081.941 ; gain = 825.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:52 ; elapsed = 00:02:18 . Memory (MB): peak = 1081.941 ; gain = 825.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:52 ; elapsed = 00:02:19 . Memory (MB): peak = 1081.941 ; gain = 825.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:52 ; elapsed = 00:02:19 . Memory (MB): peak = 1081.941 ; gain = 825.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |BUFG        |     4|
+|2     |CARRY4      |  2876|
+|3     |DSP48E1     |     1|
+|4     |DSP48E1_1   |     3|
+|5     |DSP48E1_2   |    12|
+|6     |DSP48E1_4   |     1|
+|7     |LUT1        |   589|
+|8     |LUT2        |  4571|
+|9     |LUT3        |  4615|
+|10    |LUT4        |  2606|
+|11    |LUT5        |  1925|
+|12    |LUT6        |  4944|
+|13    |MUXF7       |   217|
+|14    |MUXF8       |     6|
+|15    |RAM256X1S   |  1152|
+|16    |RAMB36E1    |     4|
+|17    |RAMB36E1_1  |     1|
+|18    |RAMB36E1_10 |     1|
+|19    |RAMB36E1_11 |     1|
+|20    |RAMB36E1_12 |     1|
+|21    |RAMB36E1_13 |     1|
+|22    |RAMB36E1_14 |     1|
+|23    |RAMB36E1_15 |     1|
+|24    |RAMB36E1_16 |     1|
+|25    |RAMB36E1_17 |     1|
+|26    |RAMB36E1_18 |     1|
+|27    |RAMB36E1_19 |     1|
+|28    |RAMB36E1_2  |     1|
+|29    |RAMB36E1_20 |     1|
+|30    |RAMB36E1_21 |     1|
+|31    |RAMB36E1_22 |     1|
+|32    |RAMB36E1_23 |     1|
+|33    |RAMB36E1_24 |     1|
+|34    |RAMB36E1_25 |     1|
+|35    |RAMB36E1_26 |     1|
+|36    |RAMB36E1_27 |     1|
+|37    |RAMB36E1_28 |     1|
+|38    |RAMB36E1_29 |     1|
+|39    |RAMB36E1_3  |     1|
+|40    |RAMB36E1_30 |     1|
+|41    |RAMB36E1_31 |     1|
+|42    |RAMB36E1_32 |     1|
+|43    |RAMB36E1_33 |     1|
+|44    |RAMB36E1_34 |     1|
+|45    |RAMB36E1_35 |     1|
+|46    |RAMB36E1_36 |     1|
+|47    |RAMB36E1_37 |     4|
+|48    |RAMB36E1_38 |     4|
+|49    |RAMB36E1_4  |     1|
+|50    |RAMB36E1_5  |     1|
+|51    |RAMB36E1_6  |     1|
+|52    |RAMB36E1_7  |     1|
+|53    |RAMB36E1_8  |     1|
+|54    |RAMB36E1_9  |     1|
+|55    |FDCE        |    67|
+|56    |FDE_1       |    32|
+|57    |FDPE        |    28|
+|58    |FDRE        |  2607|
+|59    |FDSE        |   120|
+|60    |LD          |    16|
+|61    |LDC         |    18|
+|62    |IBUF        |    20|
+|63    |OBUF        |    35|
+|64    |OBUFT       |     1|
++------+------------+------+
+
+Report Instance Areas: 
++------+--------------------+-----------------+------+
+|      |Instance            |Module           |Cells |
++------+--------------------+-----------------+------+
+|1     |top                 |                 | 26514|
+|2     |  Integration       |Project_MUX      |   135|
+|3     |  MUX               |MUX_control      |    67|
+|4     |  Oled_mod          |Oled_Display     |  2121|
+|5     |  UserInputs        |RJ_Main          |  6840|
+|6     |    Btn_control     |RJ_menu          |  1320|
+|7     |    OLED_control    |RJ_OLED_Control  |  5520|
+|8     |  Workout           |Keith_module     |  2135|
+|9     |    nolabel_line36  |BRAM_menu        |     4|
+|10    |    nolabel_line37  |BRAM_menu1       |    52|
+|11    |  ari               |Ari_Main_Control |  7915|
+|12    |    center_button   |dff              |     1|
+|13    |    clk_1000hz      |flexible_clock_6 |    63|
+|14    |    down_button     |dff_7            |     1|
+|15    |    g1              |dff_8            |     2|
+|16    |    g2              |dff_9            |     1|
+|17    |    g3              |dff_10           |     1|
+|18    |    g4              |dff_11           |     2|
+|19    |    g5              |dff_12           |     1|
+|20    |    g6              |dff_13           |     1|
+|21    |    ledIndicator    |calorie_led      |   545|
+|22    |    left_button     |dff_14           |     1|
+|23    |    mainff          |dff_15           |     1|
+|24    |    mainmenudff     |dff_16           |     1|
+|25    |    menuscreen      |calorie_menu     |   353|
+|26    |    mux1            |oled_data_mux    |    39|
+|27    |    pad_A           |numpad           |   774|
+|28    |    pad_B           |numpad_17        |  1052|
+|29    |    pad_C           |numpad_18        |  1121|
+|30    |    pad_D           |numpad_19        |   876|
+|31    |    pad_E           |numpad_20        |   649|
+|32    |    pad_F           |numpad_21        |   587|
+|33    |    right_button    |dff_22           |     1|
+|34    |    snackff         |dff_23           |     1|
+|35    |    snackmenuff     |dff_24           |     1|
+|36    |    snackscreen     |snack_menu       |  1255|
+|37    |    up_button       |dff_25           |     1|
+|38    |  clk6p             |flexible_clock   |    63|
+|39    |  damien            |damien           |  5321|
+|40    |    clk10           |flexible_clock_0 |    55|
+|41    |    nolabel_line101 |BRAM_run6        |     4|
+|42    |    nolabel_line103 |BRAM_end         |     4|
+|43    |    nolabel_line87  |BRAM_pushup_up   |   549|
+|44    |    nolabel_line88  |BRAM_pushup_down |     4|
+|45    |    nolabel_line90  |BRAM_pullup_up   |    16|
+|46    |    nolabel_line91  |BRAM_pullup_down |     5|
+|47    |    nolabel_line93  |BRAM_situp_up    |     8|
+|48    |    nolabel_line94  |BRAM_situp_down  |     8|
+|49    |    nolabel_line96  |BRAM_run1        |    14|
+|50    |    nolabel_line98  |BRAM_run3        |    10|
+|51    |    nolabel_line99  |BRAM_run4        |    14|
+|52    |    workout         |workout          |  4469|
+|53    |      clk1          |flexible_clock_1 |    54|
+|54    |      clk10         |flexible_clock_2 |    56|
+|55    |      clk20         |flexible_clock_3 |    55|
+|56    |      clk2p5        |flexible_clock_4 |    55|
+|57    |      clk5          |flexible_clock_5 |    55|
+|58    |  nolabel_line84    |BRAM_RJ_page1    |   544|
+|59    |  nolabel_line85    |BRAM_RJ_page2    |   544|
++------+--------------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:52 ; elapsed = 00:02:19 . Memory (MB): peak = 1081.941 ; gain = 825.344
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 66 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:35 ; elapsed = 00:02:08 . Memory (MB): peak = 1081.941 ; gain = 493.621
+Synthesis Optimization Complete : Time (s): cpu = 00:01:53 ; elapsed = 00:02:19 . Memory (MB): peak = 1081.941 ; gain = 825.344
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4402 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1218 instances were transformed.
+  FDE_1 => FDRE (inverted pins: C): 32 instances
+  LD => LDCE: 16 instances
+  LDC => LDCE: 18 instances
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 1152 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+621 Infos, 127 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:01 ; elapsed = 00:02:27 . Memory (MB): peak = 1081.941 ; gain = 838.250
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/school/uni stuff/y2s2/ee2026/FINAL_v7.1.xpr/MODS/MODS.runs/synth_1/Top_Student.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Top_Student_utilization_synth.rpt -pb Top_Student_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.245 . Memory (MB): peak = 1081.941 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Apr  6 01:47:01 2024...

@@ -1,0 +1,1487 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sat Apr  6 01:50:15 2024
+| Host         : LAPTOP-8QIVGIR0 running 64-bit major release  (build 9200)
+| Command      : report_timing_summary -max_paths 10 -file Top_Student_timing_summary_routed.rpt -pb Top_Student_timing_summary_routed.pb -rpx Top_Student_timing_summary_routed.rpx -warn_on_violation
+| Design       : Top_Student
+| Device       : 7a35t-cpg236
+| Speed File   : -1  PRODUCTION 1.22 2018-03-21
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  false
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock
+2. checking constant_clock
+3. checking pulse_width_clock
+4. checking unconstrained_internal_endpoints
+5. checking no_input_delay
+6. checking no_output_delay
+7. checking multiple_clock
+8. checking generated_clocks
+9. checking loops
+10. checking partial_input_delay
+11. checking partial_output_delay
+12. checking latch_loops
+
+1. checking no_clock
+--------------------
+ There are 18 register/latch pins with no clock driven by root clock pin: btnC (HIGH)
+
+ There are 17 register/latch pins with no clock driven by root clock pin: btnL (HIGH)
+
+ There are 16 register/latch pins with no clock driven by root clock pin: Workout/exercise_damien_reg[0]/Q (HIGH)
+
+ There are 16 register/latch pins with no clock driven by root clock pin: Workout/exercise_damien_reg[1]/Q (HIGH)
+
+ There are 16 register/latch pins with no clock driven by root clock pin: Workout/exercise_damien_reg[2]/Q (HIGH)
+
+ There are 17 register/latch pins with no clock driven by root clock pin: Workout/exercise_damien_reg[3]/Q (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Workout/run_out_reg/P[0] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Workout/run_out_reg/P[10] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Workout/run_out_reg/P[11] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Workout/run_out_reg/P[12] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Workout/run_out_reg/P[13] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Workout/run_out_reg/P[14] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Workout/run_out_reg/P[15] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Workout/run_out_reg/P[16] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Workout/run_out_reg/P[1] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Workout/run_out_reg/P[2] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Workout/run_out_reg/P[3] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Workout/run_out_reg/P[4] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Workout/run_out_reg/P[5] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Workout/run_out_reg/P[6] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Workout/run_out_reg/P[7] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Workout/run_out_reg/P[8] (HIGH)
+
+ There is 1 register/latch pin with no clock driven by root clock pin: Workout/run_out_reg/P[9] (HIGH)
+
+ There are 15 register/latch pins with no clock driven by root clock pin: ari/clk_1000hz/slow_clock_reg/Q (HIGH)
+
+ There are 5471 register/latch pins with no clock driven by root clock pin: clk6p/slow_clock_reg/Q (HIGH)
+
+ There are 32 register/latch pins with no clock driven by root clock pin: damien/clk10/slow_clock_reg/Q (HIGH)
+
+ There are 16 register/latch pins with no clock driven by root clock pin: damien/workout/anode_reg[0]/Q (HIGH)
+
+ There are 16 register/latch pins with no clock driven by root clock pin: damien/workout/anode_reg[1]/Q (HIGH)
+
+ There are 93 register/latch pins with no clock driven by root clock pin: damien/workout/ledClk_reg/Q (HIGH)
+
+
+2. checking constant_clock
+--------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock
+-----------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints
+--------------------------------------------
+ There are 30106 pins that are not constrained for maximum delay. (HIGH)
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay
+--------------------------
+ There are 19 input ports with no input delay specified. (HIGH)
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay
+---------------------------
+ There are 34 ports with no output delay specified. (HIGH)
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock
+--------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks
+----------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops
+-----------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay
+--------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay
+---------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops
+------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      1.708        0.000                      0                  530        0.101        0.000                      0                  530        3.750        0.000                       0                  1905  
+
+
+All user specified timing constraints are met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock        Waveform(ns)       Period(ns)      Frequency(MHz)
+-----        ------------       ----------      --------------
+sys_clk_pin  {0.000 5.000}      10.000          100.000         
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+sys_clk_pin         1.708        0.000                      0                  530        0.101        0.000                      0                  530        3.750        0.000                       0                  1905  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    ----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  sys_clk_pin
+  To Clock:  sys_clk_pin
+
+Setup :            0  Failing Endpoints,  Worst Slack        1.708ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.101ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        3.750ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             1.708ns  (required time - arrival time)
+  Source:                 damien/nolabel_line98/reg_array_reg_2/CLKARDCLK
+                            (rising edge-triggered cell RAMB36E1 clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/oled_data_reg[9]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        8.000ns  (logic 2.852ns (35.649%)  route 5.148ns (64.351%))
+  Logic Levels:           3  (LUT3=1 LUT6=2)
+  Clock Path Skew:        -0.331ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.783ns = ( 14.783 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.301ns
+    Clock Pessimism Removal (CPR):    0.187ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.458     1.458 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.967     3.425    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.096     3.521 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.780     5.301    damien/nolabel_line98/clk_IBUF_BUFG
+    RAMB36_X0Y27         RAMB36E1                                     r  damien/nolabel_line98/reg_array_reg_2/CLKARDCLK
+  -------------------------------------------------------------------    -------------------
+    RAMB36_X0Y27         RAMB36E1 (Prop_ramb36e1_CLKARDCLK_DOADO[1])
+                                                      2.454     7.755 r  damien/nolabel_line98/reg_array_reg_2/DOADO[1]
+                         net (fo=1, routed)           1.021     8.775    damien/nolabel_line98/run3[9]
+    SLICE_X9Y126         LUT6 (Prop_lut6_I1_O)        0.124     8.899 r  damien/nolabel_line98/oled_data[9]_i_3__3/O
+                         net (fo=1, routed)           3.291    12.190    damien/nolabel_line96/reg_array_reg_2_0
+    SLICE_X48Y52         LUT6 (Prop_lut6_I2_O)        0.124    12.314 r  damien/nolabel_line96/oled_data[9]_i_2__6/O
+                         net (fo=1, routed)           0.837    13.151    damien/nolabel_line96/oled_data[9]_i_2__6_n_0
+    SLICE_X48Y52         LUT3 (Prop_lut3_I0_O)        0.150    13.301 r  damien/nolabel_line96/oled_data[9]_i_1__7/O
+                         net (fo=1, routed)           0.000    13.301    damien/p_1_in[9]
+    SLICE_X48Y52         FDRE                                         r  damien/oled_data_reg[9]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                     10.000    10.000 r  
+    W5                                                0.000    10.000 r  clk (IN)
+                         net (fo=0)                   0.000    10.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.388    11.388 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.862    13.250    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.091    13.341 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.442    14.783    damien/clk_IBUF_BUFG
+    SLICE_X48Y52         FDRE                                         r  damien/oled_data_reg[9]/C
+                         clock pessimism              0.187    14.970    
+                         clock uncertainty           -0.035    14.934    
+    SLICE_X48Y52         FDRE (Setup_fdre_C_D)        0.075    15.009    damien/oled_data_reg[9]
+  -------------------------------------------------------------------
+                         required time                         15.009    
+                         arrival time                         -13.301    
+  -------------------------------------------------------------------
+                         slack                                  1.708    
+
+Slack (MET) :             1.888ns  (required time - arrival time)
+  Source:                 damien/nolabel_line98/reg_array_reg_2/CLKARDCLK
+                            (rising edge-triggered cell RAMB36E1 clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/oled_data_reg[11]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        7.776ns  (logic 2.702ns (34.747%)  route 5.074ns (65.253%))
+  Logic Levels:           2  (LUT6=2)
+  Clock Path Skew:        -0.331ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.783ns = ( 14.783 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.301ns
+    Clock Pessimism Removal (CPR):    0.187ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.458     1.458 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.967     3.425    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.096     3.521 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.780     5.301    damien/nolabel_line98/clk_IBUF_BUFG
+    RAMB36_X0Y27         RAMB36E1                                     r  damien/nolabel_line98/reg_array_reg_2/CLKARDCLK
+  -------------------------------------------------------------------    -------------------
+    RAMB36_X0Y27         RAMB36E1 (Prop_ramb36e1_CLKARDCLK_DOADO[3])
+                                                      2.454     7.755 r  damien/nolabel_line98/reg_array_reg_2/DOADO[3]
+                         net (fo=1, routed)           1.412     9.166    damien/nolabel_line99/reg_array_reg_3_0[8]
+    SLICE_X9Y126         LUT6 (Prop_lut6_I2_O)        0.124     9.290 r  damien/nolabel_line99/oled_data[11]_i_3__3/O
+                         net (fo=1, routed)           3.662    12.953    damien/workout/reg_array_reg_2_1
+    SLICE_X48Y52         LUT6 (Prop_lut6_I2_O)        0.124    13.077 r  damien/workout/oled_data[11]_i_1__9/O
+                         net (fo=1, routed)           0.000    13.077    damien/p_1_in[11]
+    SLICE_X48Y52         FDRE                                         r  damien/oled_data_reg[11]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                     10.000    10.000 r  
+    W5                                                0.000    10.000 r  clk (IN)
+                         net (fo=0)                   0.000    10.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.388    11.388 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.862    13.250    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.091    13.341 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.442    14.783    damien/clk_IBUF_BUFG
+    SLICE_X48Y52         FDRE                                         r  damien/oled_data_reg[11]/C
+                         clock pessimism              0.187    14.970    
+                         clock uncertainty           -0.035    14.934    
+    SLICE_X48Y52         FDRE (Setup_fdre_C_D)        0.031    14.965    damien/oled_data_reg[11]
+  -------------------------------------------------------------------
+                         required time                         14.965    
+                         arrival time                         -13.077    
+  -------------------------------------------------------------------
+                         slack                                  1.888    
+
+Slack (MET) :             2.096ns  (required time - arrival time)
+  Source:                 damien/nolabel_line98/reg_array_reg_1/CLKARDCLK
+                            (rising edge-triggered cell RAMB36E1 clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/oled_data_reg[4]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        7.815ns  (logic 2.826ns (36.162%)  route 4.989ns (63.838%))
+  Logic Levels:           3  (LUT3=1 LUT6=2)
+  Clock Path Skew:        -0.082ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.783ns = ( 14.783 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.123ns
+    Clock Pessimism Removal (CPR):    0.258ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.458     1.458 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.967     3.425    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.096     3.521 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.602     5.123    damien/nolabel_line98/clk_IBUF_BUFG
+    RAMB36_X2Y19         RAMB36E1                                     r  damien/nolabel_line98/reg_array_reg_1/CLKARDCLK
+  -------------------------------------------------------------------    -------------------
+    RAMB36_X2Y19         RAMB36E1 (Prop_ramb36e1_CLKARDCLK_DOADO[0])
+                                                      2.454     7.577 r  damien/nolabel_line98/reg_array_reg_1/DOADO[0]
+                         net (fo=1, routed)           1.956     9.534    damien/nolabel_line99/reg_array_reg_3_0[3]
+    SLICE_X11Y95         LUT6 (Prop_lut6_I2_O)        0.124     9.658 r  damien/nolabel_line99/oled_data[4]_i_3__3/O
+                         net (fo=1, routed)           1.335    10.993    damien/nolabel_line96/reg_array_reg_1_0
+    SLICE_X48Y87         LUT6 (Prop_lut6_I2_O)        0.124    11.117 r  damien/nolabel_line96/oled_data[4]_i_2__5/O
+                         net (fo=1, routed)           1.698    12.814    damien/nolabel_line96/oled_data[4]_i_2__5_n_0
+    SLICE_X48Y52         LUT3 (Prop_lut3_I0_O)        0.124    12.938 r  damien/nolabel_line96/oled_data[4]_i_1__9/O
+                         net (fo=1, routed)           0.000    12.938    damien/p_1_in[4]
+    SLICE_X48Y52         FDRE                                         r  damien/oled_data_reg[4]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                     10.000    10.000 r  
+    W5                                                0.000    10.000 r  clk (IN)
+                         net (fo=0)                   0.000    10.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.388    11.388 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.862    13.250    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.091    13.341 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.442    14.783    damien/clk_IBUF_BUFG
+    SLICE_X48Y52         FDRE                                         r  damien/oled_data_reg[4]/C
+                         clock pessimism              0.258    15.041    
+                         clock uncertainty           -0.035    15.006    
+    SLICE_X48Y52         FDRE (Setup_fdre_C_D)        0.029    15.035    damien/oled_data_reg[4]
+  -------------------------------------------------------------------
+                         required time                         15.035    
+                         arrival time                         -12.938    
+  -------------------------------------------------------------------
+                         slack                                  2.096    
+
+Slack (MET) :             2.317ns  (required time - arrival time)
+  Source:                 damien/nolabel_line98/reg_array_reg_2/CLKARDCLK
+                            (rising edge-triggered cell RAMB36E1 clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/oled_data_reg[8]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        7.389ns  (logic 2.702ns (36.566%)  route 4.687ns (63.434%))
+  Logic Levels:           2  (LUT6=2)
+  Clock Path Skew:        -0.335ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.779ns = ( 14.779 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.301ns
+    Clock Pessimism Removal (CPR):    0.187ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.458     1.458 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.967     3.425    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.096     3.521 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.780     5.301    damien/nolabel_line98/clk_IBUF_BUFG
+    RAMB36_X0Y27         RAMB36E1                                     r  damien/nolabel_line98/reg_array_reg_2/CLKARDCLK
+  -------------------------------------------------------------------    -------------------
+    RAMB36_X0Y27         RAMB36E1 (Prop_ramb36e1_CLKARDCLK_DOADO[0])
+                                                      2.454     7.755 r  damien/nolabel_line98/reg_array_reg_2/DOADO[0]
+                         net (fo=1, routed)           1.364     9.119    damien/nolabel_line99/reg_array_reg_3_0[7]
+    SLICE_X9Y126         LUT6 (Prop_lut6_I2_O)        0.124     9.243 r  damien/nolabel_line99/oled_data[8]_i_3__0/O
+                         net (fo=1, routed)           3.324    12.566    damien/workout/reg_array_reg_2
+    SLICE_X46Y54         LUT6 (Prop_lut6_I2_O)        0.124    12.690 r  damien/workout/oled_data[8]_i_1__1/O
+                         net (fo=1, routed)           0.000    12.690    damien/p_1_in[8]
+    SLICE_X46Y54         FDRE                                         r  damien/oled_data_reg[8]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                     10.000    10.000 r  
+    W5                                                0.000    10.000 r  clk (IN)
+                         net (fo=0)                   0.000    10.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.388    11.388 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.862    13.250    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.091    13.341 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.438    14.779    damien/clk_IBUF_BUFG
+    SLICE_X46Y54         FDRE                                         r  damien/oled_data_reg[8]/C
+                         clock pessimism              0.187    14.966    
+                         clock uncertainty           -0.035    14.930    
+    SLICE_X46Y54         FDRE (Setup_fdre_C_D)        0.077    15.007    damien/oled_data_reg[8]
+  -------------------------------------------------------------------
+                         required time                         15.007    
+                         arrival time                         -12.690    
+  -------------------------------------------------------------------
+                         slack                                  2.317    
+
+Slack (MET) :             2.429ns  (required time - arrival time)
+  Source:                 damien/nolabel_line98/reg_array_reg_2/CLKARDCLK
+                            (rising edge-triggered cell RAMB36E1 clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/oled_data_reg[10]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        7.230ns  (logic 2.702ns (37.372%)  route 4.528ns (62.628%))
+  Logic Levels:           2  (LUT6=2)
+  Clock Path Skew:        -0.334ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.780ns = ( 14.780 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.301ns
+    Clock Pessimism Removal (CPR):    0.187ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.458     1.458 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.967     3.425    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.096     3.521 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.780     5.301    damien/nolabel_line98/clk_IBUF_BUFG
+    RAMB36_X0Y27         RAMB36E1                                     r  damien/nolabel_line98/reg_array_reg_2/CLKARDCLK
+  -------------------------------------------------------------------    -------------------
+    RAMB36_X0Y27         RAMB36E1 (Prop_ramb36e1_CLKARDCLK_DOADO[2])
+                                                      2.454     7.755 r  damien/nolabel_line98/reg_array_reg_2/DOADO[2]
+                         net (fo=1, routed)           1.097     8.851    damien/nolabel_line98/run3[10]
+    SLICE_X9Y126         LUT6 (Prop_lut6_I1_O)        0.124     8.975 r  damien/nolabel_line98/oled_data[10]_i_3__5/O
+                         net (fo=1, routed)           3.431    12.407    damien/workout/reg_array_reg_2_0
+    SLICE_X44Y52         LUT6 (Prop_lut6_I2_O)        0.124    12.531 r  damien/workout/oled_data[10]_i_1__9/O
+                         net (fo=1, routed)           0.000    12.531    damien/p_1_in[10]
+    SLICE_X44Y52         FDRE                                         r  damien/oled_data_reg[10]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                     10.000    10.000 r  
+    W5                                                0.000    10.000 r  clk (IN)
+                         net (fo=0)                   0.000    10.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.388    11.388 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.862    13.250    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.091    13.341 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.439    14.780    damien/clk_IBUF_BUFG
+    SLICE_X44Y52         FDRE                                         r  damien/oled_data_reg[10]/C
+                         clock pessimism              0.187    14.967    
+                         clock uncertainty           -0.035    14.931    
+    SLICE_X44Y52         FDRE (Setup_fdre_C_D)        0.029    14.960    damien/oled_data_reg[10]
+  -------------------------------------------------------------------
+                         required time                         14.960    
+                         arrival time                         -12.531    
+  -------------------------------------------------------------------
+                         slack                                  2.429    
+
+Slack (MET) :             2.585ns  (required time - arrival time)
+  Source:                 damien/nolabel_line101/reg_array_reg_3/CLKARDCLK
+                            (rising edge-triggered cell RAMB36E1 clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/oled_data_reg[12]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        7.086ns  (logic 2.826ns (39.881%)  route 4.260ns (60.119%))
+  Logic Levels:           3  (LUT3=1 LUT6=2)
+  Clock Path Skew:        -0.322ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.777ns = ( 14.777 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.286ns
+    Clock Pessimism Removal (CPR):    0.187ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.458     1.458 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.967     3.425    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.096     3.521 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.765     5.286    damien/nolabel_line101/clk_IBUF_BUFG
+    RAMB36_X0Y24         RAMB36E1                                     r  damien/nolabel_line101/reg_array_reg_3/CLKARDCLK
+  -------------------------------------------------------------------    -------------------
+    RAMB36_X0Y24         RAMB36E1 (Prop_ramb36e1_CLKARDCLK_DOADO[0])
+                                                      2.454     7.740 r  damien/nolabel_line101/reg_array_reg_3/DOADO[0]
+                         net (fo=1, routed)           1.208     8.948    damien/nolabel_line98/reg_array_reg_3_0[3]
+    SLICE_X9Y114         LUT6 (Prop_lut6_I2_O)        0.124     9.072 r  damien/nolabel_line98/oled_data[12]_i_3__4/O
+                         net (fo=1, routed)           1.421    10.493    damien/nolabel_line96/reg_array_reg_3_0
+    SLICE_X9Y81          LUT6 (Prop_lut6_I2_O)        0.124    10.617 r  damien/nolabel_line96/oled_data[12]_i_2__3/O
+                         net (fo=1, routed)           1.631    12.248    damien/nolabel_line96/oled_data[12]_i_2__3_n_0
+    SLICE_X47Y60         LUT3 (Prop_lut3_I0_O)        0.124    12.372 r  damien/nolabel_line96/oled_data[12]_i_1__6/O
+                         net (fo=1, routed)           0.000    12.372    damien/p_1_in[12]
+    SLICE_X47Y60         FDRE                                         r  damien/oled_data_reg[12]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                     10.000    10.000 r  
+    W5                                                0.000    10.000 r  clk (IN)
+                         net (fo=0)                   0.000    10.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.388    11.388 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.862    13.250    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.091    13.341 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.436    14.777    damien/clk_IBUF_BUFG
+    SLICE_X47Y60         FDRE                                         r  damien/oled_data_reg[12]/C
+                         clock pessimism              0.187    14.964    
+                         clock uncertainty           -0.035    14.928    
+    SLICE_X47Y60         FDRE (Setup_fdre_C_D)        0.029    14.957    damien/oled_data_reg[12]
+  -------------------------------------------------------------------
+                         required time                         14.957    
+                         arrival time                         -12.372    
+  -------------------------------------------------------------------
+                         slack                                  2.585    
+
+Slack (MET) :             2.956ns  (required time - arrival time)
+  Source:                 damien/nolabel_line88/reg_array_reg_0/CLKARDCLK
+                            (rising edge-triggered cell RAMB36E1 clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/oled_data_reg[3]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        6.935ns  (logic 2.976ns (42.911%)  route 3.959ns (57.089%))
+  Logic Levels:           4  (LUT3=1 LUT4=1 LUT6=2)
+  Clock Path Skew:        -0.149ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.777ns = ( 14.777 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.112ns
+    Clock Pessimism Removal (CPR):    0.187ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.458     1.458 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.967     3.425    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.096     3.521 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.591     5.112    damien/nolabel_line88/clk_IBUF_BUFG
+    RAMB36_X0Y16         RAMB36E1                                     r  damien/nolabel_line88/reg_array_reg_0/CLKARDCLK
+  -------------------------------------------------------------------    -------------------
+    RAMB36_X0Y16         RAMB36E1 (Prop_ramb36e1_CLKARDCLK_DOADO[3])
+                                                      2.454     7.566 r  damien/nolabel_line88/reg_array_reg_0/DOADO[3]
+                         net (fo=1, routed)           0.640     8.206    damien/nolabel_line87/data_out[0]
+    SLICE_X9Y83          LUT4 (Prop_lut4_I2_O)        0.124     8.330 r  damien/nolabel_line87/oled_data[3]_i_6__0/O
+                         net (fo=1, routed)           2.015    10.345    damien/nolabel_line94/data_out_reg[3]
+    SLICE_X57Y58         LUT6 (Prop_lut6_I5_O)        0.124    10.469 r  damien/nolabel_line94/oled_data[3]_i_4__2/O
+                         net (fo=1, routed)           0.490    10.959    damien/nolabel_line96/exercise_damien_reg[1]
+    SLICE_X51Y60         LUT6 (Prop_lut6_I4_O)        0.124    11.083 r  damien/nolabel_line96/oled_data[3]_i_2__6/O
+                         net (fo=1, routed)           0.814    11.898    damien/nolabel_line96/oled_data[3]_i_2__6_n_0
+    SLICE_X47Y60         LUT3 (Prop_lut3_I0_O)        0.150    12.048 r  damien/nolabel_line96/oled_data[3]_i_1__9/O
+                         net (fo=1, routed)           0.000    12.048    damien/p_1_in[3]
+    SLICE_X47Y60         FDRE                                         r  damien/oled_data_reg[3]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                     10.000    10.000 r  
+    W5                                                0.000    10.000 r  clk (IN)
+                         net (fo=0)                   0.000    10.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.388    11.388 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.862    13.250    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.091    13.341 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.436    14.777    damien/clk_IBUF_BUFG
+    SLICE_X47Y60         FDRE                                         r  damien/oled_data_reg[3]/C
+                         clock pessimism              0.187    14.964    
+                         clock uncertainty           -0.035    14.928    
+    SLICE_X47Y60         FDRE (Setup_fdre_C_D)        0.075    15.003    damien/oled_data_reg[3]
+  -------------------------------------------------------------------
+                         required time                         15.003    
+                         arrival time                         -12.048    
+  -------------------------------------------------------------------
+                         slack                                  2.956    
+
+Slack (MET) :             3.012ns  (required time - arrival time)
+  Source:                 damien/nolabel_line88/reg_array_reg_0/CLKARDCLK
+                            (rising edge-triggered cell RAMB36E1 clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/oled_data_reg[0]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        6.887ns  (logic 2.826ns (41.032%)  route 4.061ns (58.968%))
+  Logic Levels:           3  (LUT5=1 LUT6=2)
+  Clock Path Skew:        -0.143ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.783ns = ( 14.783 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.112ns
+    Clock Pessimism Removal (CPR):    0.187ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.458     1.458 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.967     3.425    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.096     3.521 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.591     5.112    damien/nolabel_line88/clk_IBUF_BUFG
+    RAMB36_X0Y16         RAMB36E1                                     r  damien/nolabel_line88/reg_array_reg_0/CLKARDCLK
+  -------------------------------------------------------------------    -------------------
+    RAMB36_X0Y16         RAMB36E1 (Prop_ramb36e1_CLKARDCLK_DOADO[0])
+                                                      2.454     7.566 r  damien/nolabel_line88/reg_array_reg_0/DOADO[0]
+                         net (fo=1, routed)           0.637     8.203    damien/workout/reg_array_reg_3_5[0]
+    SLICE_X9Y80          LUT5 (Prop_lut5_I2_O)        0.124     8.327 r  damien/workout/oled_data[0]_i_6__5/O
+                         net (fo=1, routed)           2.677    11.005    damien/workout/oled_data[0]_i_6__5_n_0
+    SLICE_X56Y52         LUT6 (Prop_lut6_I5_O)        0.124    11.129 r  damien/workout/oled_data[0]_i_2__6/O
+                         net (fo=1, routed)           0.747    11.876    damien/workout/oled_data[0]_i_2__6_n_0
+    SLICE_X52Y54         LUT6 (Prop_lut6_I0_O)        0.124    12.000 r  damien/workout/oled_data[0]_i_1__8/O
+                         net (fo=1, routed)           0.000    12.000    damien/p_1_in[0]
+    SLICE_X52Y54         FDRE                                         r  damien/oled_data_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                     10.000    10.000 r  
+    W5                                                0.000    10.000 r  clk (IN)
+                         net (fo=0)                   0.000    10.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.388    11.388 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.862    13.250    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.091    13.341 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.442    14.783    damien/clk_IBUF_BUFG
+    SLICE_X52Y54         FDRE                                         r  damien/oled_data_reg[0]/C
+                         clock pessimism              0.187    14.970    
+                         clock uncertainty           -0.035    14.934    
+    SLICE_X52Y54         FDRE (Setup_fdre_C_D)        0.077    15.011    damien/oled_data_reg[0]
+  -------------------------------------------------------------------
+                         required time                         15.011    
+                         arrival time                         -12.000    
+  -------------------------------------------------------------------
+                         slack                                  3.012    
+
+Slack (MET) :             3.408ns  (required time - arrival time)
+  Source:                 damien/nolabel_line98/reg_array_reg_3/CLKARDCLK
+                            (rising edge-triggered cell RAMB36E1 clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/oled_data_reg[13]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        6.240ns  (logic 2.826ns (45.289%)  route 3.414ns (54.711%))
+  Logic Levels:           3  (LUT3=1 LUT6=2)
+  Clock Path Skew:        -0.346ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.766ns = ( 14.766 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.299ns
+    Clock Pessimism Removal (CPR):    0.187ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.458     1.458 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.967     3.425    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.096     3.521 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.778     5.299    damien/nolabel_line98/clk_IBUF_BUFG
+    RAMB36_X0Y22         RAMB36E1                                     r  damien/nolabel_line98/reg_array_reg_3/CLKARDCLK
+  -------------------------------------------------------------------    -------------------
+    RAMB36_X0Y22         RAMB36E1 (Prop_ramb36e1_CLKARDCLK_DOADO[1])
+                                                      2.454     7.753 r  damien/nolabel_line98/reg_array_reg_3/DOADO[1]
+                         net (fo=1, routed)           1.052     8.805    damien/nolabel_line99/reg_array_reg_3_0[9]
+    SLICE_X9Y117         LUT6 (Prop_lut6_I2_O)        0.124     8.929 r  damien/nolabel_line99/oled_data[13]_i_3__3/O
+                         net (fo=1, routed)           1.813    10.742    damien/nolabel_line96/reg_array_reg_3_1
+    SLICE_X9Y80          LUT6 (Prop_lut6_I2_O)        0.124    10.866 r  damien/nolabel_line96/oled_data[13]_i_2__2/O
+                         net (fo=1, routed)           0.549    11.415    damien/nolabel_line96/oled_data[13]_i_2__2_n_0
+    SLICE_X9Y76          LUT3 (Prop_lut3_I0_O)        0.124    11.539 r  damien/nolabel_line96/oled_data[13]_i_1__9/O
+                         net (fo=1, routed)           0.000    11.539    damien/p_1_in[13]
+    SLICE_X9Y76          FDRE                                         r  damien/oled_data_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                     10.000    10.000 r  
+    W5                                                0.000    10.000 r  clk (IN)
+                         net (fo=0)                   0.000    10.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.388    11.388 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.862    13.250    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.091    13.341 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.425    14.766    damien/clk_IBUF_BUFG
+    SLICE_X9Y76          FDRE                                         r  damien/oled_data_reg[13]/C
+                         clock pessimism              0.187    14.953    
+                         clock uncertainty           -0.035    14.917    
+    SLICE_X9Y76          FDRE (Setup_fdre_C_D)        0.029    14.946    damien/oled_data_reg[13]
+  -------------------------------------------------------------------
+                         required time                         14.946    
+                         arrival time                         -11.539    
+  -------------------------------------------------------------------
+                         slack                                  3.408    
+
+Slack (MET) :             3.420ns  (required time - arrival time)
+  Source:                 damien/nolabel_line93/reg_array_reg_3/CLKARDCLK
+                            (rising edge-triggered cell RAMB36E1 clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/oled_data_reg[15]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (sys_clk_pin rise@10.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        6.483ns  (logic 2.826ns (43.590%)  route 3.657ns (56.410%))
+  Logic Levels:           3  (LUT4=1 LUT6=2)
+  Clock Path Skew:        -0.090ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    4.767ns = ( 14.767 - 10.000 ) 
+    Source Clock Delay      (SCD):    5.115ns
+    Clock Pessimism Removal (CPR):    0.258ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.458     1.458 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.967     3.425    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.096     3.521 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.594     5.115    damien/nolabel_line93/clk_IBUF_BUFG
+    RAMB36_X0Y12         RAMB36E1                                     r  damien/nolabel_line93/reg_array_reg_3/CLKARDCLK
+  -------------------------------------------------------------------    -------------------
+    RAMB36_X0Y12         RAMB36E1 (Prop_ramb36e1_CLKARDCLK_DOADO[3])
+                                                      2.454     7.569 r  damien/nolabel_line93/reg_array_reg_3/DOADO[3]
+                         net (fo=1, routed)           1.379     8.948    damien/nolabel_line93/situp_up_pic[15]
+    SLICE_X9Y76          LUT4 (Prop_lut4_I0_O)        0.124     9.072 r  damien/nolabel_line93/oled_data[15]_i_8__5/O
+                         net (fo=1, routed)           1.063    10.135    damien/workout/reg_array_reg_3_2
+    SLICE_X9Y88          LUT6 (Prop_lut6_I0_O)        0.124    10.259 r  damien/workout/oled_data[15]_i_4__5/O
+                         net (fo=1, routed)           1.216    11.474    damien/workout/oled_data[15]_i_4__5_n_0
+    SLICE_X9Y77          LUT6 (Prop_lut6_I0_O)        0.124    11.598 r  damien/workout/oled_data[15]_i_2__5/O
+                         net (fo=1, routed)           0.000    11.598    damien/p_1_in[15]
+    SLICE_X9Y77          FDRE                                         r  damien/oled_data_reg[15]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                     10.000    10.000 r  
+    W5                                                0.000    10.000 r  clk (IN)
+                         net (fo=0)                   0.000    10.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         1.388    11.388 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.862    13.250    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.091    13.341 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        1.426    14.767    damien/clk_IBUF_BUFG
+    SLICE_X9Y77          FDRE                                         r  damien/oled_data_reg[15]/C
+                         clock pessimism              0.258    15.025    
+                         clock uncertainty           -0.035    14.990    
+    SLICE_X9Y77          FDRE (Setup_fdre_C_D)        0.029    15.019    damien/oled_data_reg[15]
+  -------------------------------------------------------------------
+                         required time                         15.019    
+                         arrival time                         -11.598    
+  -------------------------------------------------------------------
+                         slack                                  3.420    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.101ns  (arrival time - required time)
+  Source:                 damien/workout/clk2p5/COUNT_reg[27]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/workout/clk2p5/COUNT_reg[28]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.475ns  (logic 0.355ns (74.774%)  route 0.120ns (25.226%))
+  Logic Levels:           2  (CARRY4=2)
+  Clock Path Skew:        0.269ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.992ns
+    Source Clock Delay      (SCD):    1.479ns
+    Clock Pessimism Removal (CPR):    0.244ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.226     0.226 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.631     0.858    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.026     0.884 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.596     1.479    damien/workout/clk2p5/clk_IBUF_BUFG
+    SLICE_X65Y49         FDRE                                         r  damien/workout/clk2p5/COUNT_reg[27]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X65Y49         FDRE (Prop_fdre_C_Q)         0.141     1.620 r  damien/workout/clk2p5/COUNT_reg[27]/Q
+                         net (fo=2, routed)           0.119     1.739    damien/workout/clk2p5/COUNT_reg[27]
+    SLICE_X65Y49         CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.160     1.899 r  damien/workout/clk2p5/COUNT_reg[24]_i_1__4/CO[3]
+                         net (fo=1, routed)           0.001     1.900    damien/workout/clk2p5/COUNT_reg[24]_i_1__4_n_0
+    SLICE_X65Y50         CARRY4 (Prop_carry4_CI_O[0])
+                                                      0.054     1.954 r  damien/workout/clk2p5/COUNT_reg[28]_i_1__4/O[0]
+                         net (fo=1, routed)           0.000     1.954    damien/workout/clk2p5/COUNT_reg[28]_i_1__4_n_7
+    SLICE_X65Y50         FDRE                                         r  damien/workout/clk2p5/COUNT_reg[28]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.414     0.414 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.685     1.099    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.029     1.128 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.864     1.992    damien/workout/clk2p5/clk_IBUF_BUFG
+    SLICE_X65Y50         FDRE                                         r  damien/workout/clk2p5/COUNT_reg[28]/C
+                         clock pessimism             -0.244     1.748    
+    SLICE_X65Y50         FDRE (Hold_fdre_C_D)         0.105     1.853    damien/workout/clk2p5/COUNT_reg[28]
+  -------------------------------------------------------------------
+                         required time                         -1.853    
+                         arrival time                           1.954    
+  -------------------------------------------------------------------
+                         slack                                  0.101    
+
+Slack (MET) :             0.112ns  (arrival time - required time)
+  Source:                 damien/workout/clk2p5/COUNT_reg[27]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/workout/clk2p5/COUNT_reg[30]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.486ns  (logic 0.366ns (75.345%)  route 0.120ns (24.655%))
+  Logic Levels:           2  (CARRY4=2)
+  Clock Path Skew:        0.269ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.992ns
+    Source Clock Delay      (SCD):    1.479ns
+    Clock Pessimism Removal (CPR):    0.244ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.226     0.226 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.631     0.858    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.026     0.884 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.596     1.479    damien/workout/clk2p5/clk_IBUF_BUFG
+    SLICE_X65Y49         FDRE                                         r  damien/workout/clk2p5/COUNT_reg[27]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X65Y49         FDRE (Prop_fdre_C_Q)         0.141     1.620 r  damien/workout/clk2p5/COUNT_reg[27]/Q
+                         net (fo=2, routed)           0.119     1.739    damien/workout/clk2p5/COUNT_reg[27]
+    SLICE_X65Y49         CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.160     1.899 r  damien/workout/clk2p5/COUNT_reg[24]_i_1__4/CO[3]
+                         net (fo=1, routed)           0.001     1.900    damien/workout/clk2p5/COUNT_reg[24]_i_1__4_n_0
+    SLICE_X65Y50         CARRY4 (Prop_carry4_CI_O[2])
+                                                      0.065     1.965 r  damien/workout/clk2p5/COUNT_reg[28]_i_1__4/O[2]
+                         net (fo=1, routed)           0.000     1.965    damien/workout/clk2p5/COUNT_reg[28]_i_1__4_n_5
+    SLICE_X65Y50         FDRE                                         r  damien/workout/clk2p5/COUNT_reg[30]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.414     0.414 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.685     1.099    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.029     1.128 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.864     1.992    damien/workout/clk2p5/clk_IBUF_BUFG
+    SLICE_X65Y50         FDRE                                         r  damien/workout/clk2p5/COUNT_reg[30]/C
+                         clock pessimism             -0.244     1.748    
+    SLICE_X65Y50         FDRE (Hold_fdre_C_D)         0.105     1.853    damien/workout/clk2p5/COUNT_reg[30]
+  -------------------------------------------------------------------
+                         required time                         -1.853    
+                         arrival time                           1.965    
+  -------------------------------------------------------------------
+                         slack                                  0.112    
+
+Slack (MET) :             0.137ns  (arrival time - required time)
+  Source:                 damien/workout/clk2p5/COUNT_reg[27]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/workout/clk2p5/COUNT_reg[29]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.511ns  (logic 0.391ns (76.552%)  route 0.120ns (23.448%))
+  Logic Levels:           2  (CARRY4=2)
+  Clock Path Skew:        0.269ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.992ns
+    Source Clock Delay      (SCD):    1.479ns
+    Clock Pessimism Removal (CPR):    0.244ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.226     0.226 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.631     0.858    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.026     0.884 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.596     1.479    damien/workout/clk2p5/clk_IBUF_BUFG
+    SLICE_X65Y49         FDRE                                         r  damien/workout/clk2p5/COUNT_reg[27]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X65Y49         FDRE (Prop_fdre_C_Q)         0.141     1.620 r  damien/workout/clk2p5/COUNT_reg[27]/Q
+                         net (fo=2, routed)           0.119     1.739    damien/workout/clk2p5/COUNT_reg[27]
+    SLICE_X65Y49         CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.160     1.899 r  damien/workout/clk2p5/COUNT_reg[24]_i_1__4/CO[3]
+                         net (fo=1, routed)           0.001     1.900    damien/workout/clk2p5/COUNT_reg[24]_i_1__4_n_0
+    SLICE_X65Y50         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.090     1.990 r  damien/workout/clk2p5/COUNT_reg[28]_i_1__4/O[1]
+                         net (fo=1, routed)           0.000     1.990    damien/workout/clk2p5/COUNT_reg[28]_i_1__4_n_6
+    SLICE_X65Y50         FDRE                                         r  damien/workout/clk2p5/COUNT_reg[29]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.414     0.414 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.685     1.099    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.029     1.128 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.864     1.992    damien/workout/clk2p5/clk_IBUF_BUFG
+    SLICE_X65Y50         FDRE                                         r  damien/workout/clk2p5/COUNT_reg[29]/C
+                         clock pessimism             -0.244     1.748    
+    SLICE_X65Y50         FDRE (Hold_fdre_C_D)         0.105     1.853    damien/workout/clk2p5/COUNT_reg[29]
+  -------------------------------------------------------------------
+                         required time                         -1.853    
+                         arrival time                           1.990    
+  -------------------------------------------------------------------
+                         slack                                  0.137    
+
+Slack (MET) :             0.137ns  (arrival time - required time)
+  Source:                 damien/workout/clk2p5/COUNT_reg[27]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/workout/clk2p5/COUNT_reg[31]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.511ns  (logic 0.391ns (76.552%)  route 0.120ns (23.448%))
+  Logic Levels:           2  (CARRY4=2)
+  Clock Path Skew:        0.269ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.992ns
+    Source Clock Delay      (SCD):    1.479ns
+    Clock Pessimism Removal (CPR):    0.244ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.226     0.226 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.631     0.858    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.026     0.884 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.596     1.479    damien/workout/clk2p5/clk_IBUF_BUFG
+    SLICE_X65Y49         FDRE                                         r  damien/workout/clk2p5/COUNT_reg[27]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X65Y49         FDRE (Prop_fdre_C_Q)         0.141     1.620 r  damien/workout/clk2p5/COUNT_reg[27]/Q
+                         net (fo=2, routed)           0.119     1.739    damien/workout/clk2p5/COUNT_reg[27]
+    SLICE_X65Y49         CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.160     1.899 r  damien/workout/clk2p5/COUNT_reg[24]_i_1__4/CO[3]
+                         net (fo=1, routed)           0.001     1.900    damien/workout/clk2p5/COUNT_reg[24]_i_1__4_n_0
+    SLICE_X65Y50         CARRY4 (Prop_carry4_CI_O[3])
+                                                      0.090     1.990 r  damien/workout/clk2p5/COUNT_reg[28]_i_1__4/O[3]
+                         net (fo=1, routed)           0.000     1.990    damien/workout/clk2p5/COUNT_reg[28]_i_1__4_n_4
+    SLICE_X65Y50         FDRE                                         r  damien/workout/clk2p5/COUNT_reg[31]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.414     0.414 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.685     1.099    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.029     1.128 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.864     1.992    damien/workout/clk2p5/clk_IBUF_BUFG
+    SLICE_X65Y50         FDRE                                         r  damien/workout/clk2p5/COUNT_reg[31]/C
+                         clock pessimism             -0.244     1.748    
+    SLICE_X65Y50         FDRE (Hold_fdre_C_D)         0.105     1.853    damien/workout/clk2p5/COUNT_reg[31]
+  -------------------------------------------------------------------
+                         required time                         -1.853    
+                         arrival time                           1.990    
+  -------------------------------------------------------------------
+                         slack                                  0.137    
+
+Slack (MET) :             0.137ns  (arrival time - required time)
+  Source:                 damien/clk10/COUNT_reg[14]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/clk10/COUNT_reg[20]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.540ns  (logic 0.413ns (76.443%)  route 0.127ns (23.557%))
+  Logic Levels:           3  (CARRY4=3)
+  Clock Path Skew:        0.269ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.963ns
+    Source Clock Delay      (SCD):    1.450ns
+    Clock Pessimism Removal (CPR):    0.244ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.226     0.226 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.631     0.858    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.026     0.884 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.567     1.450    damien/clk10/clk_IBUF_BUFG
+    SLICE_X54Y48         FDRE                                         r  damien/clk10/COUNT_reg[14]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X54Y48         FDRE (Prop_fdre_C_Q)         0.164     1.614 r  damien/clk10/COUNT_reg[14]/Q
+                         net (fo=3, routed)           0.127     1.741    damien/clk10/COUNT_reg[14]
+    SLICE_X54Y48         CARRY4 (Prop_carry4_S[2]_CO[3])
+                                                      0.156     1.897 r  damien/clk10/COUNT_reg[12]_i_1__6/CO[3]
+                         net (fo=1, routed)           0.000     1.897    damien/clk10/COUNT_reg[12]_i_1__6_n_0
+    SLICE_X54Y49         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.040     1.937 r  damien/clk10/COUNT_reg[16]_i_1__6/CO[3]
+                         net (fo=1, routed)           0.001     1.937    damien/clk10/COUNT_reg[16]_i_1__6_n_0
+    SLICE_X54Y50         CARRY4 (Prop_carry4_CI_O[0])
+                                                      0.053     1.990 r  damien/clk10/COUNT_reg[20]_i_1__6/O[0]
+                         net (fo=1, routed)           0.000     1.990    damien/clk10/COUNT_reg[20]_i_1__6_n_7
+    SLICE_X54Y50         FDRE                                         r  damien/clk10/COUNT_reg[20]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.414     0.414 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.685     1.099    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.029     1.128 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.835     1.963    damien/clk10/clk_IBUF_BUFG
+    SLICE_X54Y50         FDRE                                         r  damien/clk10/COUNT_reg[20]/C
+                         clock pessimism             -0.244     1.719    
+    SLICE_X54Y50         FDRE (Hold_fdre_C_D)         0.134     1.853    damien/clk10/COUNT_reg[20]
+  -------------------------------------------------------------------
+                         required time                         -1.853    
+                         arrival time                           1.990    
+  -------------------------------------------------------------------
+                         slack                                  0.137    
+
+Slack (MET) :             0.150ns  (arrival time - required time)
+  Source:                 damien/clk10/COUNT_reg[14]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/clk10/COUNT_reg[22]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.553ns  (logic 0.426ns (76.997%)  route 0.127ns (23.003%))
+  Logic Levels:           3  (CARRY4=3)
+  Clock Path Skew:        0.269ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.963ns
+    Source Clock Delay      (SCD):    1.450ns
+    Clock Pessimism Removal (CPR):    0.244ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.226     0.226 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.631     0.858    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.026     0.884 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.567     1.450    damien/clk10/clk_IBUF_BUFG
+    SLICE_X54Y48         FDRE                                         r  damien/clk10/COUNT_reg[14]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X54Y48         FDRE (Prop_fdre_C_Q)         0.164     1.614 r  damien/clk10/COUNT_reg[14]/Q
+                         net (fo=3, routed)           0.127     1.741    damien/clk10/COUNT_reg[14]
+    SLICE_X54Y48         CARRY4 (Prop_carry4_S[2]_CO[3])
+                                                      0.156     1.897 r  damien/clk10/COUNT_reg[12]_i_1__6/CO[3]
+                         net (fo=1, routed)           0.000     1.897    damien/clk10/COUNT_reg[12]_i_1__6_n_0
+    SLICE_X54Y49         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.040     1.937 r  damien/clk10/COUNT_reg[16]_i_1__6/CO[3]
+                         net (fo=1, routed)           0.001     1.937    damien/clk10/COUNT_reg[16]_i_1__6_n_0
+    SLICE_X54Y50         CARRY4 (Prop_carry4_CI_O[2])
+                                                      0.066     2.003 r  damien/clk10/COUNT_reg[20]_i_1__6/O[2]
+                         net (fo=1, routed)           0.000     2.003    damien/clk10/COUNT_reg[20]_i_1__6_n_5
+    SLICE_X54Y50         FDRE                                         r  damien/clk10/COUNT_reg[22]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.414     0.414 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.685     1.099    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.029     1.128 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.835     1.963    damien/clk10/clk_IBUF_BUFG
+    SLICE_X54Y50         FDRE                                         r  damien/clk10/COUNT_reg[22]/C
+                         clock pessimism             -0.244     1.719    
+    SLICE_X54Y50         FDRE (Hold_fdre_C_D)         0.134     1.853    damien/clk10/COUNT_reg[22]
+  -------------------------------------------------------------------
+                         required time                         -1.853    
+                         arrival time                           2.003    
+  -------------------------------------------------------------------
+                         slack                                  0.150    
+
+Slack (MET) :             0.173ns  (arrival time - required time)
+  Source:                 damien/clk10/COUNT_reg[14]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/clk10/COUNT_reg[21]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.576ns  (logic 0.449ns (77.915%)  route 0.127ns (22.085%))
+  Logic Levels:           3  (CARRY4=3)
+  Clock Path Skew:        0.269ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.963ns
+    Source Clock Delay      (SCD):    1.450ns
+    Clock Pessimism Removal (CPR):    0.244ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.226     0.226 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.631     0.858    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.026     0.884 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.567     1.450    damien/clk10/clk_IBUF_BUFG
+    SLICE_X54Y48         FDRE                                         r  damien/clk10/COUNT_reg[14]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X54Y48         FDRE (Prop_fdre_C_Q)         0.164     1.614 r  damien/clk10/COUNT_reg[14]/Q
+                         net (fo=3, routed)           0.127     1.741    damien/clk10/COUNT_reg[14]
+    SLICE_X54Y48         CARRY4 (Prop_carry4_S[2]_CO[3])
+                                                      0.156     1.897 r  damien/clk10/COUNT_reg[12]_i_1__6/CO[3]
+                         net (fo=1, routed)           0.000     1.897    damien/clk10/COUNT_reg[12]_i_1__6_n_0
+    SLICE_X54Y49         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.040     1.937 r  damien/clk10/COUNT_reg[16]_i_1__6/CO[3]
+                         net (fo=1, routed)           0.001     1.937    damien/clk10/COUNT_reg[16]_i_1__6_n_0
+    SLICE_X54Y50         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.089     2.026 r  damien/clk10/COUNT_reg[20]_i_1__6/O[1]
+                         net (fo=1, routed)           0.000     2.026    damien/clk10/COUNT_reg[20]_i_1__6_n_6
+    SLICE_X54Y50         FDRE                                         r  damien/clk10/COUNT_reg[21]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.414     0.414 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.685     1.099    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.029     1.128 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.835     1.963    damien/clk10/clk_IBUF_BUFG
+    SLICE_X54Y50         FDRE                                         r  damien/clk10/COUNT_reg[21]/C
+                         clock pessimism             -0.244     1.719    
+    SLICE_X54Y50         FDRE (Hold_fdre_C_D)         0.134     1.853    damien/clk10/COUNT_reg[21]
+  -------------------------------------------------------------------
+                         required time                         -1.853    
+                         arrival time                           2.026    
+  -------------------------------------------------------------------
+                         slack                                  0.173    
+
+Slack (MET) :             0.175ns  (arrival time - required time)
+  Source:                 damien/clk10/COUNT_reg[14]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/clk10/COUNT_reg[23]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.578ns  (logic 0.451ns (77.991%)  route 0.127ns (22.009%))
+  Logic Levels:           3  (CARRY4=3)
+  Clock Path Skew:        0.269ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.963ns
+    Source Clock Delay      (SCD):    1.450ns
+    Clock Pessimism Removal (CPR):    0.244ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.226     0.226 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.631     0.858    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.026     0.884 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.567     1.450    damien/clk10/clk_IBUF_BUFG
+    SLICE_X54Y48         FDRE                                         r  damien/clk10/COUNT_reg[14]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X54Y48         FDRE (Prop_fdre_C_Q)         0.164     1.614 r  damien/clk10/COUNT_reg[14]/Q
+                         net (fo=3, routed)           0.127     1.741    damien/clk10/COUNT_reg[14]
+    SLICE_X54Y48         CARRY4 (Prop_carry4_S[2]_CO[3])
+                                                      0.156     1.897 r  damien/clk10/COUNT_reg[12]_i_1__6/CO[3]
+                         net (fo=1, routed)           0.000     1.897    damien/clk10/COUNT_reg[12]_i_1__6_n_0
+    SLICE_X54Y49         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.040     1.937 r  damien/clk10/COUNT_reg[16]_i_1__6/CO[3]
+                         net (fo=1, routed)           0.001     1.937    damien/clk10/COUNT_reg[16]_i_1__6_n_0
+    SLICE_X54Y50         CARRY4 (Prop_carry4_CI_O[3])
+                                                      0.091     2.028 r  damien/clk10/COUNT_reg[20]_i_1__6/O[3]
+                         net (fo=1, routed)           0.000     2.028    damien/clk10/COUNT_reg[20]_i_1__6_n_4
+    SLICE_X54Y50         FDRE                                         r  damien/clk10/COUNT_reg[23]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.414     0.414 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.685     1.099    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.029     1.128 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.835     1.963    damien/clk10/clk_IBUF_BUFG
+    SLICE_X54Y50         FDRE                                         r  damien/clk10/COUNT_reg[23]/C
+                         clock pessimism             -0.244     1.719    
+    SLICE_X54Y50         FDRE (Hold_fdre_C_D)         0.134     1.853    damien/clk10/COUNT_reg[23]
+  -------------------------------------------------------------------
+                         required time                         -1.853    
+                         arrival time                           2.028    
+  -------------------------------------------------------------------
+                         slack                                  0.175    
+
+Slack (MET) :             0.177ns  (arrival time - required time)
+  Source:                 damien/clk10/COUNT_reg[14]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/clk10/COUNT_reg[24]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.580ns  (logic 0.453ns (78.067%)  route 0.127ns (21.933%))
+  Logic Levels:           4  (CARRY4=4)
+  Clock Path Skew:        0.269ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.963ns
+    Source Clock Delay      (SCD):    1.450ns
+    Clock Pessimism Removal (CPR):    0.244ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.226     0.226 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.631     0.858    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.026     0.884 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.567     1.450    damien/clk10/clk_IBUF_BUFG
+    SLICE_X54Y48         FDRE                                         r  damien/clk10/COUNT_reg[14]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X54Y48         FDRE (Prop_fdre_C_Q)         0.164     1.614 r  damien/clk10/COUNT_reg[14]/Q
+                         net (fo=3, routed)           0.127     1.741    damien/clk10/COUNT_reg[14]
+    SLICE_X54Y48         CARRY4 (Prop_carry4_S[2]_CO[3])
+                                                      0.156     1.897 r  damien/clk10/COUNT_reg[12]_i_1__6/CO[3]
+                         net (fo=1, routed)           0.000     1.897    damien/clk10/COUNT_reg[12]_i_1__6_n_0
+    SLICE_X54Y49         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.040     1.937 r  damien/clk10/COUNT_reg[16]_i_1__6/CO[3]
+                         net (fo=1, routed)           0.001     1.937    damien/clk10/COUNT_reg[16]_i_1__6_n_0
+    SLICE_X54Y50         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.040     1.977 r  damien/clk10/COUNT_reg[20]_i_1__6/CO[3]
+                         net (fo=1, routed)           0.000     1.977    damien/clk10/COUNT_reg[20]_i_1__6_n_0
+    SLICE_X54Y51         CARRY4 (Prop_carry4_CI_O[0])
+                                                      0.053     2.030 r  damien/clk10/COUNT_reg[24]_i_1__6/O[0]
+                         net (fo=1, routed)           0.000     2.030    damien/clk10/COUNT_reg[24]_i_1__6_n_7
+    SLICE_X54Y51         FDRE                                         r  damien/clk10/COUNT_reg[24]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.414     0.414 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.685     1.099    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.029     1.128 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.835     1.963    damien/clk10/clk_IBUF_BUFG
+    SLICE_X54Y51         FDRE                                         r  damien/clk10/COUNT_reg[24]/C
+                         clock pessimism             -0.244     1.719    
+    SLICE_X54Y51         FDRE (Hold_fdre_C_D)         0.134     1.853    damien/clk10/COUNT_reg[24]
+  -------------------------------------------------------------------
+                         required time                         -1.853    
+                         arrival time                           2.030    
+  -------------------------------------------------------------------
+                         slack                                  0.177    
+
+Slack (MET) :             0.190ns  (arrival time - required time)
+  Source:                 damien/clk10/COUNT_reg[14]/C
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            damien/clk10/COUNT_reg[26]/D
+                            (rising edge-triggered cell FDRE clocked by sys_clk_pin  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             sys_clk_pin
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (sys_clk_pin rise@0.000ns - sys_clk_pin rise@0.000ns)
+  Data Path Delay:        0.593ns  (logic 0.466ns (78.548%)  route 0.127ns (21.452%))
+  Logic Levels:           4  (CARRY4=4)
+  Clock Path Skew:        0.269ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.963ns
+    Source Clock Delay      (SCD):    1.450ns
+    Clock Pessimism Removal (CPR):    0.244ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.226     0.226 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.631     0.858    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.026     0.884 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.567     1.450    damien/clk10/clk_IBUF_BUFG
+    SLICE_X54Y48         FDRE                                         r  damien/clk10/COUNT_reg[14]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X54Y48         FDRE (Prop_fdre_C_Q)         0.164     1.614 r  damien/clk10/COUNT_reg[14]/Q
+                         net (fo=3, routed)           0.127     1.741    damien/clk10/COUNT_reg[14]
+    SLICE_X54Y48         CARRY4 (Prop_carry4_S[2]_CO[3])
+                                                      0.156     1.897 r  damien/clk10/COUNT_reg[12]_i_1__6/CO[3]
+                         net (fo=1, routed)           0.000     1.897    damien/clk10/COUNT_reg[12]_i_1__6_n_0
+    SLICE_X54Y49         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.040     1.937 r  damien/clk10/COUNT_reg[16]_i_1__6/CO[3]
+                         net (fo=1, routed)           0.001     1.937    damien/clk10/COUNT_reg[16]_i_1__6_n_0
+    SLICE_X54Y50         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.040     1.977 r  damien/clk10/COUNT_reg[20]_i_1__6/CO[3]
+                         net (fo=1, routed)           0.000     1.977    damien/clk10/COUNT_reg[20]_i_1__6_n_0
+    SLICE_X54Y51         CARRY4 (Prop_carry4_CI_O[2])
+                                                      0.066     2.043 r  damien/clk10/COUNT_reg[24]_i_1__6/O[2]
+                         net (fo=1, routed)           0.000     2.043    damien/clk10/COUNT_reg[24]_i_1__6_n_5
+    SLICE_X54Y51         FDRE                                         r  damien/clk10/COUNT_reg[26]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock sys_clk_pin rise edge)
+                                                      0.000     0.000 r  
+    W5                                                0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    W5                   IBUF (Prop_ibuf_I_O)         0.414     0.414 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           0.685     1.099    clk_IBUF
+    BUFGCTRL_X0Y1        BUFG (Prop_bufg_I_O)         0.029     1.128 r  clk_IBUF_BUFG_inst/O
+                         net (fo=1904, routed)        0.835     1.963    damien/clk10/clk_IBUF_BUFG
+    SLICE_X54Y51         FDRE                                         r  damien/clk10/COUNT_reg[26]/C
+                         clock pessimism             -0.244     1.719    
+    SLICE_X54Y51         FDRE (Hold_fdre_C_D)         0.134     1.853    damien/clk10/COUNT_reg[26]
+  -------------------------------------------------------------------
+                         required time                         -1.853    
+                         arrival time                           2.043    
+  -------------------------------------------------------------------
+                         slack                                  0.190    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         sys_clk_pin
+Waveform(ns):       { 0.000 5.000 }
+Period(ns):         10.000
+Sources:            { clk }
+
+Check Type        Corner  Lib Pin             Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location       Pin
+Min Period        n/a     RAMB36E1/CLKARDCLK  n/a            2.576         10.000      7.424      RAMB36_X1Y18   damien/nolabel_line93/reg_array_reg_1/CLKARDCLK
+Min Period        n/a     RAMB36E1/CLKARDCLK  n/a            2.576         10.000      7.424      RAMB36_X1Y8    damien/nolabel_line93/reg_array_reg_2/CLKARDCLK
+Min Period        n/a     RAMB36E1/CLKARDCLK  n/a            2.576         10.000      7.424      RAMB36_X0Y12   damien/nolabel_line93/reg_array_reg_3/CLKARDCLK
+Min Period        n/a     RAMB36E1/CLKARDCLK  n/a            2.576         10.000      7.424      RAMB36_X2Y9    damien/nolabel_line94/reg_array_reg_0/CLKARDCLK
+Min Period        n/a     RAMB36E1/CLKARDCLK  n/a            2.576         10.000      7.424      RAMB36_X1Y17   damien/nolabel_line94/reg_array_reg_1/CLKARDCLK
+Min Period        n/a     RAMB36E1/CLKARDCLK  n/a            2.576         10.000      7.424      RAMB36_X1Y7    damien/nolabel_line94/reg_array_reg_2/CLKARDCLK
+Min Period        n/a     RAMB36E1/CLKARDCLK  n/a            2.576         10.000      7.424      RAMB36_X0Y14   damien/nolabel_line94/reg_array_reg_3/CLKARDCLK
+Min Period        n/a     RAMB36E1/CLKARDCLK  n/a            2.576         10.000      7.424      RAMB36_X2Y13   damien/nolabel_line96/reg_array_reg_0/CLKARDCLK
+Min Period        n/a     RAMB36E1/CLKARDCLK  n/a            2.576         10.000      7.424      RAMB36_X2Y18   damien/nolabel_line96/reg_array_reg_1/CLKARDCLK
+Min Period        n/a     RAMB36E1/CLKARDCLK  n/a            2.576         10.000      7.424      RAMB36_X1Y10   damien/nolabel_line96/reg_array_reg_2/CLKARDCLK
+Low Pulse Width   Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X34Y134  damien/nolabel_line87/reg_array_reg_1280_1535_12_12/RAMS64E_A/CLK
+Low Pulse Width   Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X34Y134  damien/nolabel_line87/reg_array_reg_1280_1535_12_12/RAMS64E_B/CLK
+Low Pulse Width   Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X34Y134  damien/nolabel_line87/reg_array_reg_1280_1535_12_12/RAMS64E_C/CLK
+Low Pulse Width   Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X34Y134  damien/nolabel_line87/reg_array_reg_1280_1535_12_12/RAMS64E_D/CLK
+Low Pulse Width   Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X56Y119  damien/nolabel_line87/reg_array_reg_3072_3327_6_6/RAMS64E_A/CLK
+Low Pulse Width   Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X56Y119  damien/nolabel_line87/reg_array_reg_3072_3327_6_6/RAMS64E_B/CLK
+Low Pulse Width   Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X56Y119  damien/nolabel_line87/reg_array_reg_3072_3327_6_6/RAMS64E_C/CLK
+Low Pulse Width   Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X56Y119  damien/nolabel_line87/reg_array_reg_3072_3327_6_6/RAMS64E_D/CLK
+Low Pulse Width   Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X30Y111  damien/nolabel_line87/reg_array_reg_3328_3583_14_14/RAMS64E_A/CLK
+Low Pulse Width   Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X30Y111  damien/nolabel_line87/reg_array_reg_3328_3583_14_14/RAMS64E_B/CLK
+High Pulse Width  Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X34Y113  damien/nolabel_line87/reg_array_reg_0_255_14_14/RAMS64E_A/CLK
+High Pulse Width  Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X34Y113  damien/nolabel_line87/reg_array_reg_0_255_14_14/RAMS64E_B/CLK
+High Pulse Width  Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X34Y113  damien/nolabel_line87/reg_array_reg_0_255_14_14/RAMS64E_C/CLK
+High Pulse Width  Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X34Y113  damien/nolabel_line87/reg_array_reg_0_255_14_14/RAMS64E_D/CLK
+High Pulse Width  Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X10Y113  damien/nolabel_line87/reg_array_reg_0_255_15_15/RAMS64E_A/CLK
+High Pulse Width  Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X10Y113  damien/nolabel_line87/reg_array_reg_0_255_15_15/RAMS64E_B/CLK
+High Pulse Width  Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X10Y113  damien/nolabel_line87/reg_array_reg_0_255_15_15/RAMS64E_C/CLK
+High Pulse Width  Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X10Y113  damien/nolabel_line87/reg_array_reg_0_255_15_15/RAMS64E_D/CLK
+High Pulse Width  Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X2Y119   damien/nolabel_line87/reg_array_reg_0_255_1_1/RAMS64E_A/CLK
+High Pulse Width  Slow    RAMS64E/CLK         n/a            1.250         5.000       3.750      SLICE_X2Y119   damien/nolabel_line87/reg_array_reg_0_255_1_1/RAMS64E_B/CLK
+
+
+

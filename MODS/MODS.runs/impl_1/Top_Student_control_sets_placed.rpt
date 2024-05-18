@@ -1,0 +1,317 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sat Apr  6 01:48:59 2024
+| Host         : LAPTOP-8QIVGIR0 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_Student_control_sets_placed.rpt
+| Design       : Top_Student
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   246 |
+| Unused register locations in slices containing registers |   816 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |           54 |
+|      4 |            2 |
+|      6 |            2 |
+|      8 |           50 |
+|     10 |           41 |
+|     12 |           14 |
+|     14 |            1 |
+|    16+ |           82 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            1172 |          368 |
+| No           | No                    | Yes                    |              44 |           21 |
+| No           | Yes                   | No                     |            1528 |          254 |
+| Yes          | No                    | No                     |            1406 |          285 |
+| Yes          | No                    | Yes                    |             146 |           43 |
+| Yes          | Yes                   | No                     |            1480 |          242 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+----------------------------------------------------+------------------------------------------------+------------------+----------------+
+|         Clock Signal         |                    Enable Signal                   |                Set/Reset Signal                | Slice Load Count | Bel Load Count |
++------------------------------+----------------------------------------------------+------------------------------------------------+------------------+----------------+
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | Workout/sec_reg[5]_P                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | Workout/sec_reg[4]_C                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | Workout/sec_reg[5]_C                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | Workout/sec_reg[10]_C                          |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | Workout/sec_reg[6]_C                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | Workout/sec_reg[3]_C                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | Workout/sec_reg[11]_C                          |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | Workout/sec_reg[12]_C                          |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | Workout/sec_reg[14]_C                          |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | Workout/sec_reg[16]_C                          |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | Workout/sec_reg[8]_C                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | Workout/sec_reg[9]_C                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | Workout/sec_reg[15]_C                          |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | Workout/sec_reg[0]_C                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | Workout/sec_reg[13]_C                          |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | Workout/sec_reg[2]_C                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | Workout/sec_reg[7]_C                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | Workout/sec_reg[1]_C                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | Workout/sec_reg[11]_P                          |                1 |              2 |
+|  Workout/sec_reg[15]_P       |                                                    | Workout/sec_reg[15]_C                          |                1 |              2 |
+|  Workout/sec_reg[9]_P        |                                                    | Workout/sec_reg[9]_C                           |                1 |              2 |
+| ~clk_6p25m_BUFG              |                                                    |                                                |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | Workout/sec_reg[16]_P                          |                1 |              2 |
+|  Workout/sec_reg[0]_P_1      |                                                    | Workout/sec_reg[0]_C                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | Workout/sec_reg[10]_P                          |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | Workout/sec_reg[12]_P                          |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | Workout/sec_reg[2]_P                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | Workout/sec_reg[3]_P                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | Workout/sec_reg[4]_P                           |                1 |              2 |
+|  Workout/sec_reg[1]_P        |                                                    | Workout/sec_reg[1]_C                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | Workout/sec_reg[1]_P                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | Workout/sec_reg[6]_P                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | Workout/sec_reg[7]_P                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | Workout/sec_reg[8]_P                           |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | Workout/sec_reg[14]_P                          |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | Workout/sec_reg[13]_P                          |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | Workout/sec_reg[0]_P_1                         |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | Workout/sec_reg[15]_P                          |                1 |              2 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | Workout/sec_reg[9]_P                           |                1 |              2 |
+|  clk_6p25m_BUFG              |                                                    | MUX/seg_reg[7]                                 |                1 |              2 |
+|  Workout/led_reg[9]_P        |                                                    | Workout/led_reg[9]_C_0                         |                1 |              2 |
+|  Workout/sec_reg[10]_P       |                                                    | Workout/sec_reg[10]_C                          |                1 |              2 |
+|  Workout/sec_reg[12]_P       |                                                    | Workout/sec_reg[12]_C                          |                1 |              2 |
+|  Workout/sec_reg[2]_P        |                                                    | Workout/sec_reg[2]_C                           |                1 |              2 |
+|  Workout/sec_reg[3]_P        |                                                    | Workout/sec_reg[3]_C                           |                1 |              2 |
+|  Workout/sec_reg[4]_P        |                                                    | Workout/sec_reg[4]_C                           |                1 |              2 |
+|  Workout/sec_reg[16]_P       |                                                    | Workout/sec_reg[16]_C                          |                1 |              2 |
+|  Workout/sec_reg[5]_P        |                                                    | Workout/sec_reg[5]_C                           |                1 |              2 |
+|  Workout/sec_reg[6]_P        |                                                    | Workout/sec_reg[6]_C                           |                1 |              2 |
+|  Workout/sec_reg[7]_P        |                                                    | Workout/sec_reg[7]_C                           |                1 |              2 |
+|  Workout/sec_reg[8]_P        |                                                    | Workout/sec_reg[8]_C                           |                1 |              2 |
+|  Workout/sec_reg[14]_P       |                                                    | Workout/sec_reg[14]_C                          |                1 |              2 |
+|  Workout/sec_reg[11]_P       |                                                    | Workout/sec_reg[11]_C                          |                1 |              2 |
+|  Workout/sec_reg[13]_P       |                                                    | Workout/sec_reg[13]_C                          |                1 |              2 |
+|  clk_6p25m_BUFG              |                                                    | ari/menuscreen/oled_data[15]_i_1__1_n_0        |                1 |              4 |
+|  clk_IBUF_BUFG               |                                                    | damien/workout/led11_out                       |                1 |              4 |
+|  clk_6p25m_BUFG              |                                                    | ari/snackscreen/oled_data[15]_i_1__0_n_0       |                1 |              6 |
+|  COUNT_reg[3]_i_3_n_0        |                                                    | damien/workout/led11_out                       |                3 |              6 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/COUNT[3]_i_1_n_0                    | damien/workout/led11_out                       |                2 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/anode3_W[5]_i_2_n_0         | UserInputs/Btn_control/anode3_W[5]             |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/anode2_WL[5]_i_2_n_0        | UserInputs/Btn_control/anode2_WL[5]            |                3 |              8 |
+|  clk_6p25m_BUFG              | ari/pad_F/display_pos[3]_i_1__4_n_0                |                                                |                2 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/anode2_months[5]_i_2_n_0    | UserInputs/Btn_control/anode2_months[5]        |                1 |              8 |
+|  Workout/E[0]                |                                                    |                                                |                4 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/anode2_W[5]_i_1_n_0         | UserInputs/Btn_control/i___4_n_0               |                1 |              8 |
+|  clk_6p25m_BUFG              | ari/snackscreen/boxNum[5]_i_2_n_0                  | ari/snackscreen/boxNum[5]_i_1_n_0              |                1 |              8 |
+|  Workout/an2_out_reg[3][0]   |                                                    |                                                |                4 |              8 |
+|  Workout/an1_out_reg[6]_0[0] |                                                    |                                                |                2 |              8 |
+|  Workout/an3_out_reg[6][0]   |                                                    |                                                |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/anode3_WL[5]_i_2_n_0        | UserInputs/Btn_control/anode3_WL[5]            |                1 |              8 |
+|  clk_6p25m_BUFG              | ari/pad_E/display_pos[3]_i_1__0_n_0                |                                                |                2 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/anode3_months[5]_i_2_n_0    | UserInputs/Btn_control/anode3_months[5]        |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/anode3_age[5]_i_2_n_0       | UserInputs/Btn_control/anode3_age[5]_i_1_n_0   |                1 |              8 |
+|  clk_6p25m_BUFG              | ari/pad_D/display_pos[3]_i_1__3_n_0                |                                                |                2 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/Months_2nd_digit[3]_i_1_n_0 |                                                |                2 |              8 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_F/calorie_count[13]_i_1__4_n_0         |                2 |              8 |
+|  clk_6p25m_BUFG              | ari/pad_B/display_pos[3]_i_1__1_n_0                |                                                |                3 |              8 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_A/calorie_count[13]_i_1__2_n_0         |                1 |              8 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_B/calorie_count[13]_i_1__1_n_0         |                1 |              8 |
+|  clk_6p25m_BUFG              | ari/pad_C/display_pos[3]_i_1_n_0                   |                                                |                1 |              8 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_C/calorie_count[13]_i_1_n_0            |                2 |              8 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_D/calorie_count[13]_i_1__3_n_0         |                2 |              8 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_E/calorie_count[13]_i_1__0_n_0         |                2 |              8 |
+|  clk_6p25m_BUFG              |                                                    | ari/seg3[6]_i_1_n_0                            |                3 |              8 |
+|  clk_6p25m_BUFG              | ari/pad_A/display_pos[3]_i_1__2_n_0                |                                                |                2 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/wLOSS_1st_digit[3]_i_1_n_0  |                                                |                2 |              8 |
+|  clk_6p25m_BUFG              | Workout/exercise_damien[3]_i_1_n_0                 |                                                |                4 |              8 |
+|  clk_6p25m_BUFG              | MUX/seed_reg[3][0]                                 |                                                |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/height_3rd_digit[3]_i_1_n_0 |                                                |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/height_1st_digit[3]_i_1_n_0 |                                                |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/height_2nd_digit[3]_i_1_n_0 |                                                |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/i___32_n_0                  |                                                |                2 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/i___33_n_0                  |                                                |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/i___43_n_0                  |                                                |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/i___44_n_0                  |                                                |                2 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/wLOSS_2nd_digit[3]_i_1_n_0  |                                                |                2 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/weight_3rd_digit[3]_i_1_n_0 |                                                |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/weight_1st_digit[3]_i_1_n_0 |                                                |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/age_1st_digit[3]_i_1_n_0    |                                                |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/age_2nd_digit[3]_i_1_n_0    |                                                |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/age_3rd_digit[3]_i_1_n_0    |                                                |                2 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/Months_1st_digit[3]_i_1_n_0 |                                                |                2 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/anode2_H[5]_i_2_n_0         | UserInputs/Btn_control/anode2_H[5]             |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/anode1_H[5]_i_1_n_0         | UserInputs/Btn_control/i___10_n_0              |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/anode1_age[5]_i_1_n_0       | UserInputs/Btn_control/i___37_n_0              |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/anode1_W[5]_i_2_n_0         | UserInputs/Btn_control/anode1_W[5]             |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/anode2_age[5]_i_1_n_0       | UserInputs/Btn_control/i___14_n_0              |                1 |              8 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/anode3_H[5]_i_2_n_0         | UserInputs/Btn_control/anode3_H[5]             |                1 |              8 |
+|  clk_6p25m_BUFG              | Workout/an0[6]_i_2_n_0                             | MUX/SS[0]                                      |                4 |             10 |
+|  clk_6p25m_BUFG              | Workout/an0[6]_i_2_n_0                             | Workout/an1[6]_i_1_n_0                         |                3 |             10 |
+|  clk_6p25m_BUFG              | Workout/an0[6]_i_2_n_0                             | Workout/an0[6]_i_1_n_0                         |                3 |             10 |
+|  clk_6p25m_BUFG              | Workout/an0[6]_i_2_n_0                             | Workout/an3[6]_i_1_n_0                         |                3 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_E/display_num[2][4]_i_2__0_n_0             | ari/pad_E/display_num[2][4]_i_1__0_n_0         |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_E/display_num[0][4]_i_2__0_n_0             | ari/pad_E/display_num[0][4]_i_1__0_n_0         |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_E/display_num[3][4]_i_2__0_n_0             | ari/pad_E/display_num[3][4]_i_1__0_n_0         |                3 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_C/display_num[0][4]_i_2_n_0                | ari/pad_C/display_num[0][4]_i_1_n_0            |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_A/display_num[0][4]_i_2__2_n_0             | ari/pad_A/display_num[0][4]_i_1__2_n_0         |                4 |             10 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_A/calorie_count[4]_i_1__2_n_0          |                4 |             10 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_A/calorie_count[9]_i_1__2_n_0          |                3 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_B/display_num[2][4]_i_2__1_n_0             | ari/pad_B/display_num[2][4]_i_1__1_n_0         |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_F/display_num[1][4]_i_2__4_n_0             | ari/pad_F/display_num[1][4]_i_1__4_n_0         |                2 |             10 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_B/calorie_count[4]_i_1__1_n_0          |                3 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_D/display_num0_in__1                       | ari/pad_D/display_num[3][4]_i_1__3_n_0         |                2 |             10 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_B/calorie_count[9]_i_1__1_n_0          |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_B/display_num[1][4]_i_2__1_n_0             | ari/pad_B/display_num[1][4]_i_1__1_n_0         |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_C/display_num0_in                          | ari/pad_C/display_num[3][4]_i_1_n_0            |                1 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_C/display_num[2][4]_i_2_n_0                | ari/pad_C/display_num[2][4]_i_1_n_0            |                1 |             10 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_C/calorie_count[4]_i_1_n_0             |                3 |             10 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_C/calorie_count[9]_i_1_n_0             |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_B/display_num0_in__0                       | ari/pad_B/display_num[3][4]_i_1__1_n_0         |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_D/display_num[1][4]_i_2__3_n_0             | ari/pad_D/display_num[1][4]_i_1__3_n_0         |                2 |             10 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_F/calorie_count[4]_i_1__4_n_0          |                2 |             10 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_D/calorie_count[4]_i_1__3_n_0          |                3 |             10 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_D/calorie_count[9]_i_1__3_n_0          |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_B/display_num[0][4]_i_2__1_n_0             | ari/pad_B/display_num[0][4]_i_1__1_n_0         |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_F/display_num[2][4]_i_2__4_n_0             | ari/pad_F/display_num[2][4]_i_1__4_n_0         |                2 |             10 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_F/calorie_count[9]_i_1__4_n_0          |                2 |             10 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_E/calorie_count[4]_i_1__0_n_0          |                4 |             10 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_E/calorie_count[9]_i_1__0_n_0          |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_A/display_num[1][4]_i_2__2_n_0             | ari/pad_A/display_num[1][4]_i_1__2_n_0         |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_A/display_num[2][4]_i_2__2_n_0             | ari/pad_A/display_num[2][4]_i_1__2_n_0         |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_D/display_num[2][4]_i_2__3_n_0             | ari/pad_D/display_num[2][4]_i_1__3_n_0         |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/menuscreen/boxNum                              | ari/menuscreen/boxNum[5]_i_1__2_n_0            |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_F/display_num[3][4]_i_2__4_n_0             | ari/pad_F/display_num[3][4]_i_1__4_n_0         |                3 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_C/display_num[1][4]_i_2_n_0                | ari/pad_C/display_num[1][4]_i_1_n_0            |                4 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_D/display_num[0][4]_i_2__3_n_0             | ari/pad_D/display_num[0][4]_i_1__3_n_0         |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_E/display_num[1][4]_i_2__0_n_0             | ari/pad_E/display_num[1][4]_i_1__0_n_0         |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_A/display_num[3][4]_i_2__2_n_0             | ari/pad_A/display_num[3][4]_i_1__2_n_0         |                2 |             10 |
+|  clk_6p25m_BUFG              | ari/pad_F/display_num[0][4]_i_2__4_n_0             | ari/pad_F/display_num[0][4]_i_1__4_n_0         |                4 |             10 |
+|  clk_6p25m_BUFG              |                                                    | ari/seg2[5]_i_1_n_0                            |                2 |             12 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_B/oled_data_reg[15]_7                  |                2 |             12 |
+|  clk_6p25m_BUFG              | ari/pad_A/boxNum[5]_i_1__4_n_0                     |                                                |                4 |             12 |
+|  clk_6p25m_BUFG              | ari/pad_B/boxNum[5]_i_1__3_n_0                     |                                                |                3 |             12 |
+|  clk_6p25m_BUFG              | ari/pad_C/boxNum[5]_i_1__0_n_0                     |                                                |                3 |             12 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/state[5]_i_1_n_0            |                                                |                5 |             12 |
+|  clk_6p25m_BUFG              | ari/pad_F/boxNum[5]_i_1__6_n_0                     |                                                |                3 |             12 |
+|  clk_6p25m_BUFG              | ari/pad_D/boxNum[5]_i_1__5_n_0                     |                                                |                4 |             12 |
+|  clk_6p25m_BUFG              | ari/pad_E/boxNum[5]_i_1__1_n_0                     |                                                |                4 |             12 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/led[15]_i_1__0_n_0                  | damien/workout/led11_out                       |                4 |             12 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_C/oled_data_reg[15]_5                  |                2 |             12 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_D/oled_data_reg[15]_7                  |                3 |             12 |
+|  clk_6p25m_BUFG              |                                                    | ari/seg0[5]_i_1_n_0                            |                1 |             12 |
+|  clk_6p25m_BUFG              |                                                    | ari/seg1[5]_i_1_n_0                            |                1 |             12 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/seg[6]_i_2_n_0              | UserInputs/Btn_control/seg[6]_i_1_n_0          |                6 |             14 |
+|  clk_6p25m_BUFG              | Workout/situp_color[15]_i_1_n_0                    |                                                |                5 |             16 |
+|  clk_6p25m_BUFG              |                                                    | UserInputs/OLED_control/deficit[15]_i_1_n_0    |                8 |             16 |
+|  clk_6p25m_BUFG              |                                                    | UserInputs/OLED_control/deficit1__1            |                2 |             16 |
+|  clk_6p25m_BUFG              |                                                    | UserInputs/OLED_control/TDEE[13]_i_1_n_0       |                4 |             16 |
+|  clk_6p25m_BUFG              |                                                    | UserInputs/OLED_control/TDEE[15]_i_1_n_0       |                5 |             16 |
+|  clk_6p25m_BUFG              | ari/pad_C/E[0]                                     |                                                |                3 |             18 |
+|  clk_6p25m_BUFG              | Workout/push_out[9]_i_1_n_0                        |                                                |                3 |             18 |
+|  clk_6p25m_BUFG              | Workout/pull_out[9]_i_1_n_0                        |                                                |                3 |             18 |
+|  clk_6p25m_BUFG              | Workout/sit_out[9]_i_1_n_0                         |                                                |                3 |             18 |
+|  clk_6p25m_BUFG              | ari/pad_D/E[0]                                     |                                                |                3 |             18 |
+|  clk_6p25m_BUFG              | ari/pad_C/lineLeft                                 |                                                |                3 |             18 |
+|  clk_6p25m_BUFG              | ari/pad_D/lineLeft__1                              |                                                |                2 |             18 |
+|  clk_6p25m_BUFG              | ari/pad_B/E[0]                                     |                                                |                3 |             18 |
+|  clk_6p25m_BUFG              | ari/pad_B/lineLeft__0                              |                                                |                2 |             18 |
+|  clk_IBUF_BUFG               | Workout/countUpTo_reg[1][0]                        |                                                |                3 |             18 |
+|  clk_6p25m_BUFG              |                                                    | UserInputs/OLED_control/BMI[9]_i_1_n_0         |               10 |             20 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/led[15]_i_1__0_n_0                  | Workout/led_reg[9]_P                           |                4 |             20 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/led[15]_i_1__0_n_0                  | Workout/led_reg[9]_C_0                         |                5 |             20 |
+|  clk_6p25m_BUFG              | Workout/num_pushup[10]_i_1_n_0                     |                                                |                6 |             22 |
+|  clk_6p25m_BUFG              | Workout/num_pullup[10]_i_1_n_0                     |                                                |                7 |             22 |
+|  clk_6p25m_BUFG              | Workout/num_running[10]_i_1_n_0                    |                                                |                4 |             22 |
+|  clk_6p25m_BUFG              | Workout/num_situp[10]_i_1_n_0                      |                                                |                8 |             22 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/digits[10]_i_1_n_0                  | damien/workout/led11_out                       |                7 |             22 |
+|  clk_6p25m_BUFG              | ari/pad_F/yUp[6]_i_1__6_n_0                        |                                                |                6 |             28 |
+|  clk_6p25m_BUFG              | ari/pad_C/xRight[6]_i_1_n_0                        |                                                |                6 |             28 |
+|  clk_6p25m_BUFG              | ari/pad_C/yUp[6]_i_1__1_n_0                        |                                                |                6 |             28 |
+|  clk_6p25m_BUFG              | ari/pad_E/xRight[6]_i_1__0_n_0                     |                                                |                6 |             28 |
+|  clk_6p25m_BUFG              | ari/menuscreen/yDown                               |                                                |                5 |             28 |
+|  clk_6p25m_BUFG              | ari/pad_A/xRight[6]_i_1__2_n_0                     |                                                |                6 |             28 |
+|  clk_6p25m_BUFG              | ari/pad_A/yUp[6]_i_1__4_n_0                        |                                                |                6 |             28 |
+|  clk_6p25m_BUFG              | ari/pad_D/xRight[6]_i_1__3_n_0                     |                                                |                6 |             28 |
+|  clk_6p25m_BUFG              | ari/pad_D/yUp[6]_i_1__5_n_0                        |                                                |                6 |             28 |
+|  clk_6p25m_BUFG              | ari/pad_F/xRight[6]_i_1__4_n_0                     |                                                |                6 |             28 |
+|  clk_6p25m_BUFG              | ari/pad_E/yUp[6]_i_1__2_n_0                        |                                                |                6 |             28 |
+|  clk_6p25m_BUFG              | ari/snackscreen/yDown                              |                                                |                5 |             28 |
+|  clk_6p25m_BUFG              | ari/pad_B/xRight[6]_i_1__1_n_0                     |                                                |                6 |             28 |
+|  clk_6p25m_BUFG              | ari/pad_B/yUp[6]_i_1__3_n_0                        |                                                |                6 |             28 |
+|  ari/clk_1000hz/oneMsClk     |                                                    |                                                |               14 |             30 |
+|  COUNT_reg[3]_i_3_n_0        | damien/workout/sec[31]_C_i_1_n_0                   | damien/workout/led11_out                       |                4 |             30 |
+|  clk_6p25m_BUFG              | Oled_mod/E[0]                                      |                                                |               14 |             32 |
+|  clk_6p25m_BUFG              | MUX/E[0]                                           | MUX/led_reg[15]_0                              |                9 |             32 |
+|  clk_6p25m_BUFG              | Workout/an0[6]_i_2_n_0                             | Oled_mod/SR[0]                                 |                8 |             32 |
+|  clk_IBUF_BUFG               | Workout/oled_data_reg[15]_0[0]                     |                                                |               11 |             32 |
+|  clk_6p25m_BUFG              | Workout/num_total[16]_i_1_n_0                      |                                                |                5 |             34 |
+| ~clk_6p25m_BUFG              |                                                    | Oled_mod/frame_counter[16]_i_1_n_0             |                5 |             34 |
+|  clk_6p25m_BUFG              | MUX/num_kcal_burn_reg[0]                           |                                                |                6 |             38 |
+|  clk_IBUF_BUFG               | damien/workout/countSevenSeg[19]_i_2_n_0           | damien/workout/countSevenSeg[19]_i_1_n_0       |                6 |             40 |
+| ~clk_6p25m_BUFG              | Oled_mod/delay[0]_i_1_n_0                          |                                                |                5 |             40 |
+|  clk_6p25m_BUFG              | Workout/count2                                     |                                                |                6 |             46 |
+|  clk_6p25m_BUFG              | MUX/count1_reg[23]                                 |                                                |                6 |             48 |
+|  clk_6p25m_BUFG              | MUX/an2_out_reg[0]                                 |                                                |                9 |             56 |
+|  clk_IBUF_BUFG               |                                                    | damien/workout/clk2p5/COUNT[0]_i_1__4_n_0      |                8 |             64 |
+|  clk_6p25m_BUFG              | Workout/btnC_count[31]_i_2_n_0                     | Workout/btnC_count[31]_i_1_n_0                 |               13 |             64 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_C/clear                                |                8 |             64 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_B/clear__0                             |                8 |             64 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_A/counter[0]_i_1__3_n_0                |                8 |             64 |
+|  clk_6p25m_BUFG              | Workout/count[31]_i_2__0_n_0                       | Workout/count[31]_i_1__0_n_0                   |                8 |             64 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_F/counter[0]_i_1__5_n_0                |                8 |             64 |
+|  clk_6p25m_BUFG              |                                                    | ari/snackscreen/counter                        |                8 |             64 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_E/counter[0]_i_1__1_n_0                |                8 |             64 |
+|  clk_6p25m_BUFG              | MUX/count3_reg[31]                                 |                                                |                8 |             64 |
+|  clk_6p25m_BUFG              |                                                    | ari/menuscreen/counter0                        |                8 |             64 |
+|  clk_6p25m_BUFG              |                                                    | ari/clk_1000hz/clear                           |                8 |             64 |
+|  clk_6p25m_BUFG              | MUX/an2_out_reg[0]                                 | MUX/state                                      |                8 |             64 |
+|  clk_6p25m_BUFG              |                                                    | ari/pad_D/clear__1                             |                8 |             64 |
+|  clk_IBUF_BUFG               |                                                    | damien/workout/clk20/clear                     |                8 |             64 |
+|  clk_IBUF_BUFG               |                                                    | damien/workout/clk10/COUNT[0]_i_1__2_n_0       |                8 |             64 |
+|  clk_IBUF_BUFG               |                                                    | damien/workout/clk1/COUNT[0]_i_1__1_n_0        |                8 |             64 |
+|  clk_6p25m_BUFG              | Workout/count2                                     | Workout/count2[31]_i_1_n_0                     |                9 |             64 |
+|  clk_IBUF_BUFG               |                                                    | damien/workout/clk5/COUNT[0]_i_1__3_n_0        |                8 |             64 |
+|  clk_IBUF_BUFG               |                                                    | damien/clk10/clear                             |                8 |             64 |
+|  clk_IBUF_BUFG               |                                                    | clk6p/clear                                    |                8 |             64 |
+| ~clk_6p25m_BUFG              | Oled_mod/state                                     |                                                |                9 |             64 |
+|  slow_clock                  | damien//run_count[31]_i_2_n_0                      | Workout/SR[0]                                  |                9 |             64 |
+| ~clk_6p25m_BUFG              |                                                    | Oled_mod/spi_word[39]_i_1_n_0                  |               15 |             90 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/debouncer_C2                | UserInputs/Btn_control/debouncer_C2[0]_i_1_n_0 |               16 |            128 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/an_count_reg[0]_0           | UserInputs/Btn_control/i___44_n_0              |               17 |            128 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/an_count_reg[0]_0           | MUX/debouncer_L                                |               16 |            128 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/an_count_reg[0]_0           | MUX/debouncer_R                                |               16 |            128 |
+|  clk_6p25m_BUFG              | UserInputs/Btn_control/debouncer_C                 | UserInputs/Btn_control/debouncer_C[0]_i_1_n_0  |               16 |            128 |
+|  clk_IBUF_BUFG               |                                                    |                                                |              415 |           3186 |
+|  clk_6p25m_BUFG              |                                                    |                                                |             1079 |           7138 |
++------------------------------+----------------------------------------------------+------------------------------------------------+------------------+----------------+
+
+
